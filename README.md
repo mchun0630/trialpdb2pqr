@@ -26,8 +26,6 @@
 	* [Download Python](https://www.python.org/) (*This is written using Python 2.7 )
 	* [Download Matplotlib](http://matplotlib.org/)
 
-# Put in Internal LInks for the TOC
-
 
 <a name="vmd"></a>
 ## VMD
