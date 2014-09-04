@@ -1,3 +1,4 @@
+<a name="topcall"></a>
 #Table of Contents:
 
 
@@ -450,4 +451,6 @@ The problem is that APBS used a signed integer in the 1.4 release to store the t
 
 In the new APBS release, this was fixed by using an unsigned type that is as big as the machine can support, generally a 64 bit number.
 
-[For extra information click HERE](http://en.wikipedia.org/wiki/Two's_complement)
+[For extra information on signed integers and overflow click HERE](http://en.wikipedia.org/wiki/Two's_complement)
+
+[Click here to return to the top of the page](#topcall)
