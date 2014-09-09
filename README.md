@@ -104,7 +104,8 @@ on the VMD Main window, click
 
 4. For the next section as well, keep automatic settings and hit ![](http://i62.tinypic.com/2pzcz0z.png)
 
-5. When ![](http://i59.tinypic.com/25jyq82.png) pops up, click "ok"
+5. When the following window pops up, click "ok"
+![](http://i59.tinypic.com/25jyq82.png)
 
 6. If, perhaps an error window pops up:  
 ![](http://i60.tinypic.com/xcpwew.png)  
