@@ -37,21 +37,21 @@
 1. Go to desired Protein Page [(pic)](http://oi60.tinypic.com/2zs8xti.jpg)
 
 2. On the right hand corner, hit the "download files" option  
-![](http://i62.tinypic.com/2iu82u0.png)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_1.png)  
 
 3. Now, select desired file type. For this tutorial, the PBD File (TEXT) was selected  
-![](http://i58.tinypic.com/wl1zxh.png)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_2.png)  
 Once you click the file, download should start immediately. Save the file in desired location.
 
 4. Next, open up VMD  
-![](http://i61.tinypic.com/20kzo5v.png)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_3.png)
 
-5. Click ![](http://i60.tinypic.com/24b7rev.png), then click "new molecule" A Molecule File Browser will pop up as such  
-![](http://i60.tinypic.com/210eqhf.png)  
+5. Click ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_4.png), then click "new molecule" A Molecule File Browser will pop up as such  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_5.png)  
 
 6. Click "Browse...", and then click and open saved Protein file. 
 Go below to "Determine File Type", and click file type, which in this case, is PDB
-![](http://i58.tinypic.com/2gsr90g.png)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_6.png)
 Click the "Load" button, and your saved protein will load in the VMD window as a 3-D protein structure
 
 <hr/>
@@ -61,17 +61,17 @@ Click the "Load" button, and your saved protein will load in the VMD window as a
 
 1. First, your 3-D protein structure should be loaded
 on the VMD Main window, click 
-![](http://i60.tinypic.com/ja9bmu.png), and then click 
-![](http://i60.tinypic.com/nmzr4n.png)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_7.png), and then click 
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_8.png)
 
 2. Next, the Graphical Representations Window will open  
-![](http://i57.tinypic.com/2s1q9t5.png)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_9.png)
 
 3. Under 
-![](http://i59.tinypic.com/107uyol.png), delete the text "all" and enter "resname (insert name of desired compound here)"
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_10.png), delete the text "all" and enter "resname (insert name of desired compound here)"
 
 4. Hit 
-![](http://i62.tinypic.com/z1ogn.png)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_11.png)
 and the chosen ligand will appear
 
 <hr/>
@@ -80,50 +80,50 @@ and the chosen ligand will appear
 
 1. First, your 3-D protein structure should be loaded
 on the VMD Main window, click 
-![](http://i60.tinypic.com/ja9bmu.png), and then click 
-![](http://i60.tinypic.com/nmzr4n.png)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_12.png), and then click 
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_13.png)
 
 2. Next, the Graphical Representations Window will open  
-![](http://i57.tinypic.com/2s1q9t5.png)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_14.png)
 
-3. Under ![](http://i59.tinypic.com/107uyol.png), delete the text "all" and enter "resid (insert residue number)" to find the desired residue number
+3. Under ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_15.png), delete the text "all" and enter "resid (insert residue number)" to find the desired residue number
 
-4. Hit ![](http://i62.tinypic.com/z1ogn.png)and the chosen residue will appear
+4. Hit ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_16.png)and the chosen residue will appear
 
 <hr/>
 <a name="mutate"></a>
 ######How to Mutate a Protein
 
-1.  First, one must take their pdb file (taken from pdb.org) and convert it into a psf file. This is done by hitting ![](http://i60.tinypic.com/2jb7969.png) in the VMD main window, then ![](http://i62.tinypic.com/fnv5g9.png), and finally ![](http://i61.tinypic.com/1zezbwl.png). You will this on your screen:  
-![](http://i58.tinypic.com/28iuh38.png)
+1.  First, one must take their pdb file (taken from pdb.org) and convert it into a psf file. This is done by hitting ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_17.png) in the VMD main window, then ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_18.png), and finally ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_19.png). You will this on your screen:  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_20.png)
 \*For this example, we'll use the pdb protein 1JLB.
 
-2. Molecule simply names the molecule you want to make into a psf file. ![](http://i61.tinypic.com/2zeauqc.png) is the name of your soon-to-be psf file; change it if you wish. Then hit ![](http://i59.tinypic.com/w7eno9.png)  
+2. Molecule simply names the molecule you want to make into a psf file. ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_21.png) is the name of your soon-to-be psf file; change it if you wish. Then hit ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_22.png)  
 
-3. For the next section, keep automatic settings and hit ![](http://i58.tinypic.com/2dmf53n.png) 
+3. For the next section, keep automatic settings and hit ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_23.png) 
 
-4. For the next section as well, keep automatic settings and hit ![](http://i62.tinypic.com/2pzcz0z.png)
+4. For the next section as well, keep automatic settings and hit ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_24.png)
 
 5. When the following window pops up, click "ok"
-![](http://i59.tinypic.com/25jyq82.png)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_25.png)
 
 6. If, perhaps an error window pops up:  
-![](http://i60.tinypic.com/xcpwew.png)  
-simply click ![](http://i61.tinypic.com/qsr512.png) and the error messages will clear. However this may jeopardize the quality of the mutated protein. 
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_26.png)  
+simply click ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_27.png) and the error messages will clear. However this may jeopardize the quality of the mutated protein. 
 
-7. Click ![](http://i61.tinypic.com/2433loy.png), and then you will have the psf file saved in your files. 
+7. Click ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_28.png), and then you will have the psf file saved in your files. 
 
-8. Now we can go on to really mutating our residue. Hit ![](http://i60.tinypic.com/2jb7969.png) in the VMD main window, then ![](http://i62.tinypic.com/fnv5g9.png), and finally![](http://i59.tinypic.com/wgyycl.png). Then, the following window will open:  
-![](http://i60.tinypic.com/v4ov9i.png)  
+8. Now we can go on to really mutating our residue. Hit ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_29.png) in the VMD main window, then ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_30.png), and finally![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_31.png). Then, the following window will open:  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_32.png)  
 
 9. Upload the psf and pdb files of your protein. For the field marked MUTATED, retype the name you wish your mutated file to be called.  
-![](http://i62.tinypic.com/nx2r01.png) refers to the original residue your target residue was  
-![](http://i57.tinypic.com/j0emwk.png) is the residue number  
-![](http://i57.tinypic.com/24czm07.png) is the amino acid of your desired mutation.  
-An example of the procedure, is if you wanted to change a wild type HIV-1 Reverse Transcriptase Tyrosin to Cysteine, then ![](http://i62.tinypic.com/nx2r01.png) would be TYR, ![](http://i57.tinypic.com/j0emwk.png) would be 181, and ![](http://i57.tinypic.com/24czm07.png) would be CYS  
-You do not have to check the ![](http://i57.tinypic.com/2u9na7p.png) in order to mutate your residue.  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_33.png) refers to the original residue your target residue was  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_34.png) is the residue number  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_35.png) is the amino acid of your desired mutation.  
+An example of the procedure, is if you wanted to change a wild type HIV-1 Reverse Transcriptase Tyrosin to Cysteine, then ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_36.png) would be TYR, ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_37.png) would be 181, and ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_38.png) would be CYS  
+You do not have to check the ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_39.png) in order to mutate your residue.  
 
-10. Finally, click ![](http://i59.tinypic.com/11gu4ip.png)  
+10. Finally, click ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_40.png)  
 The mutated protein will now appear in your VMD window 
 
 <a name="PDB2PQR"></a>
@@ -145,21 +145,21 @@ Since I want my file to be compatible with VMD, for the both settings named "Pic
 * With PDB2PQR, unfortunately the program deletes any stray ligands that are in the molecule, which means to mutate accordingly a MOL2 file must be taken (which most are available at the ZINC database website). 
 
 An interesting thing to keep in mind whilst using pdb2pqr:
-![](http://i60.tinypic.com/1zn0gm8.jpg)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_41.jpg)
 
 <a name="Download"></a>
 ######Downloading a PDB or PQR file for Offline APBS 
 
 1. After running PDB2PQR from the website, click on the file under "Input Files" labeled something like "14084693082.pdb" (the number will be different but it will have a .pdb ending). This should start a download   
-![](http://i58.tinypic.com/30m65gk.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_42.jpg)  
 **\*(It is useful to rename the file to 1FAS.pdb because it gets confusing when you have many different strings of numbers for different proteins)**
 
 2. If the link didn't download, right click on this link and click "Save link as..." and save the file where you want to be able to find it.  
-![](http://i58.tinypic.com/2vlof7t.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_43.jpg)  
 **\*(You should rename this file too)**
 
 3. Now you should download the same numbered file under "Output files" (mine is called 1408469302.pqr). This time you cannot click on it (as it will just bring up the a webpage with all the information in the file. You must right click and "Save link as..." this time. Also make sure the downloaded file ends in a .pqr but once again the number will not be the same as the one in this picture.  
-![](http://i59.tinypic.com/uosr9.jpg)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_44.jpg)
 
 <a name="APBS"></a>
 ##APBS
@@ -175,9 +175,9 @@ APBS is a useful tool to find the electrostatic field of a protein. Certain comp
 The steps follow the same steps in making a PDB2PQR protein model structure, except for a small difference. 
 
 1. When making the PDB2PQR, check the option for allowing the program to have an APBS option, and in addition adding the insert white space link in the options, like so: 
-![](http://i61.tinypic.com/117z95c.png)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_45.png)  
 
-2. Then, click submit, and it will take you to the page for the PDB2PQR runned protein. On the bottom of the page, click ![](http://i61.tinypic.com/sdem35.jpg) and wait until APBS is done running.  
+2. Then, click submit, and it will take you to the page for the PDB2PQR runned protein. On the bottom of the page, click ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_46.jpg) and wait until APBS is done running.  
 
 3. Then download the .dx.gz file, and that is the end of your APBS session.
 
@@ -194,20 +194,20 @@ Why use the command line? It gives the user much more power over executable func
 
 1. First, in order to run APBS at all, you need to make a directory connecting APBS to the command line. 
 To do so, go to the start menu, and right click on 'computer' The following should open:  
-![](http://i57.tinypic.com/qyy24i.png)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_47.png)  
 
 2. Click on properties, and the following should open:  
-![](http://i62.tinypic.com/raro1z.png)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_48.png)  
 
 3. Click on 'Advanced System Settings' ; the computer will ask you if you want to change settings. Click yes, and then the system properties window will open.  
-![](http://i61.tinypic.com/2ed7h8m.png)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_49.png)  
 
 4. Click 
-![](http://i62.tinypic.com/4k9nci.png), and another window will pop up.  
-![](http://i62.tinypic.com/i5bsdd.png)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_50.png), and another window will pop up.  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_51.png)  
 
 5. This is where you'll write your path. Click on the 
-![](http://i62.tinypic.com/3167m0l.png) to create a new path.  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_52.png) to create a new path.  
 
 6. TO make the directory, simply copy and paste  
 **C:\Python27\;C:\Python27\Scripts;C:\Util\pdb2pqr-windows-bin-1.9.0;C:\apbs\bin**  
@@ -220,27 +220,27 @@ You can now run APBS!
 
 ####DISCALIMER: THIS TUTORIAL IS USING A WINDOWS COMPUTER AND WINDOWS COMMAND PROMPT
 
-1. First, before running APBS through the command line, you must make sure your desired protein files are in the same folder as the apbs command prompt. If APBS downloaded correctly, it should be in your C drive (![](http://i57.tinypic.com/k2ih3r.png)) when you open "computer" from your start menu. 
+1. First, before running APBS through the command line, you must make sure your desired protein files are in the same folder as the apbs command prompt. If APBS downloaded correctly, it should be in your C drive (![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_53.png)) when you open "computer" from your start menu. 
 
 2. Click on the APBS folder, and in the APBS folder make a new folder for all your proteins; please label the folder accordingly, and remember the name of the folder. 
 
 3. It is important to remember, that when putting protein files in the folder, you need to put both the PQR as well as the corresponding IN file. PQR and IN files can both be obtained from the PDB2PQR webserver.   
 (A PQR file is the information about the protein, whereas the IN file is a command file that tells APBS how to calculate the electrostatic fields. The In file is unique to one PQR file (as it specifies its commands to only one PQR file) and also holds other information such as dimensions and calculation specifications. Both files are needed to run APBS)  
-![](http://i59.tinypic.com/1tlwgo.png)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_54.png)
 _An example of the pdb2pqr webserver and the pqr and in files_
 
 4. Now that the folders are set up, you can open the command line. To open up the start menu, type in cmd.exe and open the command prompt; this is the command line execution for APBS.
 The command prompt should look something similar to this:  
-![](http://i57.tinypic.com/otf7ut.png)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_55.png)  
 
 5. Of course, our PQR and IN files are not in this location, so we'll have to go back to our C:\ drive, then to our APBS Folder, then to our designated protein folder. To do so, in the command prompt hit "space", cd, "space", .., then enter. Your command prompt should look like the following:  
-![](http://i61.tinypic.com/mc5079.png)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_56.png)  
 As you can see, this makes our prompt go up one directory. To go to the C:\ drive, type in the same command, and hit "enter"  
-![](http://i59.tinypic.com/2h4hw8h.png)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_57.png)  
 
 6. Now, type "space", "cd", "space", "apbs" and hit "enter". You are now in your APBS folder. To get to your folder of proteins, type in "cd", "space", then type in the first letter of your folder name and hit "tab" until your folder name pops up. Then hit "enter"   
 (_What the tab key does is find all files that start with the letters you have typed, for example, if you typed "i", then tab, the command prompt would go down, alphabetically, all your files in the folder that start with "i"_)  
-![](http://i61.tinypic.com/10mufxe.png)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_58.png)  
 
 7. Now that you are in your folder with your PQR and IN files, using the tab shortkey (as mentioned above), type the first letter of your 
 desired IN file. This is very important; apbs does not need the PQR file, it needs the IN file to operate.  
@@ -259,69 +259,70 @@ You are done running APBS!
 To set up the molecule follow the **"Introduction to PDB2PQR"** instructions above.
 
 1. Open the PQR file you are going to be using so you can edit it, and go down to where all the **"HETATM"** are (these should all be HOH which is water). Select them all and delete them. Save the file.  
-![](http://i60.tinypic.com/9g9bva.jpg)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_59.jpg)
 It should look something like this:  
-![](http://i59.tinypic.com/t87via.jpg)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_60.jpg)
 
-2.  Load the newly saved PQR file you had into PyMOL (File → Open...) and choose your favorite graphical representation of the molecular structure (often the easiest to view is "showing (**S**)" the cartoon representation and "hiding (**H**)" lines). A 
-![](http://i58.tinypic.com/o8w3s5.jpg)
+2.  Load the newly saved PQR file you had into PyMOL (File → Open...) and choose your favorite graphical representation of the molecular structure (often the easiest to view is "showing (**S**)" the cartoon representation and "hiding (**H**)" lines). 
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_61.jpg)
  
 3. Next go to the Plugin tab and open APBS Tools... (where ... is a number referring to the  version). In the window that comes up, click "Use another PQR" and then "Choose Externally Generated PQR:".   
-![](http://i60.tinypic.com/14sgjkj.jpg)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_62.jpg)
 
 4. Now find the file that you created using the webserver and click ok.    
-![](http://i60.tinypic.com/2z84xtj.jpg)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_63.jpg)
 
 5. Go into "My Computer" and in the upper right corner and type in apbs.exe and press enter (to search for it).   
-![](http://i57.tinypic.com/30nj3wj.jpg)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_64.jpg)
 
 6. Once you find the file, left click on it once to select it, then right click and go to open file location.  
-![](http://i61.tinypic.com/14xyukp.jpg)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_65.jpg)
 
 7. Click on the white space in the top of window.  
-![](http://i59.tinypic.com/2zjls7t.jpg)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_66.jpg)
 
 8. When the path is highlighted blue, Right click on it,  
-![](http://i62.tinypic.com/2l8kv2e.jpg)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_67.jpg)
 
 9. And hit Copy (to copy the file path).    
-![](http://i59.tinypic.com/2l93528.jpg)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_68.jpg)
 
 10. Paste this link into the "APBS binary location" on the "Program Locations" tab of "PyMol APBS Tools".  
-![](http://i57.tinypic.com/2u5gjt1.jpg)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_69.jpg)
 
 11. Now add "**\apbs.exe**" after "\bin" in order to finish off the path to the APBS executable. If the path to an apbs.exe executable is correct, the line should no longer be highlighted red.  
-![](http://i62.tinypic.com/2v0ogv6.jpg)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_70.jpg)
 
 12. Now repeat steps 4 through 10 but with **psize.py** and **pdb2pqr.exe** (if they are not already in place). The end product should look like this:  
-![](http://i62.tinypic.com/huj313.jpg)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_71.jpg)
 
 13. Now hit "Set grid", and "Run APBS".  
-![](http://i58.tinypic.com/30uzqwx.jpg)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_72.jpg)
 
 14. Now you should go to the visualization tab, and hit "Show" under "Molecular surface", "Positive Isosurface", and "Negative Isosurface".  
-![](http://i60.tinypic.com/1y7mte.jpg)  
-A visualization in the "PyMol Viewer" window should appear and look something like this:
-![](http://i58.tinypic.com/2qsvvrs.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_73.jpg)  
+
+15. A visualization in the "PyMol Viewer" window should appear and look something like this:
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_74.jpg)  
 
 16. \*\*\* By changing the values for" Low, High, and Contour (kT/e), you can increase the range of concentrations you can see (larger values means more white space and less dark red/blue, as well as less isosurface).    
-![](http://i61.tinypic.com/2hfnrwz.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_75.jpg)  
 
 17. To get the changes to show you need to hit the "Update button" after changing the values.  
-![](http://i61.tinypic.com/2a5dw5k.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_75.jpg)  
 Using values of 5, this is the picture that appears (common isovalues are 1,5,10):  
-![](http://i57.tinypic.com/33yhm9w.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_76.jpg)  
 
 18. **If a picture like this**   
-![](http://i59.tinypic.com/dophtz.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_77.jpg)  
 **or this appears,**   
-![](http://i57.tinypic.com/5fntkm.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_78.jpg)  
 **you didn't properly delete/save the water molecules which causes small highly charged areas**
 
 19. To get field lines to appear, under the Visualization(1) tab hit "Show"  
-![](http://i60.tinypic.com/2zsmgdi.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_79.jpg)  
 The picture should look somewhat similar to this:  
-![](http://i60.tinypic.com/148jcwi.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_80.jpg)  
 
 <a name="VMD"></a>
 ######VMD
@@ -331,105 +332,105 @@ The picture should look somewhat similar to this:
 In order to set up the molecule, follow the same instructions as **"Introduction to PDB2PQR"** but replace the shown molecule with 1MYK.
 
 1. Open the downloaded PQR file and go to the bottom where the "HETATMs" are listed. There should be the 3 parts of a water molecule (labeled HOH). Delete these.
-![](http://i58.tinypic.com/28cikk5.jpg)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_81.jpg)
 You should end up with the following:
-![](http://i62.tinypic.com/10xyjqu.jpg)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_82.jpg)
 
 2. Open up VMD, and under the **VMD Main** tab, click "File" -> "New Molecule".  
-![](http://i62.tinypic.com/i6bcb5.jpg)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_83.jpg)
 
 3. Under "Molecule File Browser",  
-![](http://i61.tinypic.com/2h32dlv.jpg)  
-Hit ![](http://i58.tinypic.com/2yn07cj.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_84.jpg)  
+Hit ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_85.jpg)  
 Open the "**1MYK.pqr**" file and hit Load (make sure the file type under "Determine file type:" is correct after hitting load, it should be PQR)  
-![](http://i61.tinypic.com/rmjma0.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_86.jpg)  
 
 4. Under "Extensions", select "Analysis" and "APBS Electrostatics"  
-![](http://i62.tinypic.com/2dahu69.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_87.jpg)  
 
 5. Under "APBS Tools" click "Edit" and then "Settings"  
-![](http://i60.tinypic.com/11l4w0h.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_88.jpg)  
 
 6. Under the APBS Tools "Settings" tab, hit Browse under "APBS Location". Input the location to an apbs.exe (apbs executable).  
-![](http://i58.tinypic.com/24wax4k.jpg) 
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_89.jpg) 
  
 7. Click on "Computer" on the left sidebar and in the top right corner type "apbs.exe" and hit enter to search for apbs.exe.  
-![](http://i61.tinypic.com/2wq7l91.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_90.jpg)  
 
 8. Click on one of the "apbs.exe", right click and go down to "Open file location"  
-![](http://i60.tinypic.com/s2r88o.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_91.jpg)  
 
 9. Click on the "apbs.exe" and click "Open".  
-![](http://i59.tinypic.com/108gzsh.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_92.jpg)  
 
 10. For "Working Directory" browse over to the file that contains the PQR file (1MYK.pqr) you downloaded and saved previously. Hit "Ok" once you found the file.  
-![](http://i61.tinypic.com/28assk3.jpg)   
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_93.jpg)   
 
 11. Click OK on the "Settings" page  
-![](http://i58.tinypic.com/2k4y6w.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_94.jpg)  
 
 12. Click on the "0" and hit "Edit".  
-![](http://i57.tinypic.com/ztcj8y.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_95.jpg)  
 
 13. If you need to change the APBS settings you would do it on this page; however, the defaults are usually fine except for the most highly charged molecules (Elec stands for electrostatics). Hit Ok when you are done.  
-![](http://i61.tinypic.com/f2sbpx.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_96.jpg)  
 
 14. Now hit "Run APBS". In the "APBSRun: Load APBS Maps" window click "Load files into top molecule" and click "Ok"  
-![](http://i59.tinypic.com/fbm075.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_97.jpg)  
 
 15. Under the "VMD Main" tab, go to "Graphics" and hit "Representations".  
-![](http://i61.tinypic.com/15noh76.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_98.jpg)  
 
 16. Select the current "rep" and under "Drawing Method" select "NewCartoon". Under "Coloring Method" select "ResType (colors based on type of residue: non-polar, basic, acidic, polar are white, blue, red, and green respectively)"  
-![](http://i57.tinypic.com/6pqion.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_99.jpg)  
 The current picture should look something like this:  
-![](http://i61.tinypic.com/rihpav.jpg)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_100.jpg)
 
 17. Now hit "Create rep" and select the new rep.  
-![](http://i61.tinypic.com/35idl75.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_101.jpg)  
 Change the "Coloring Method" of this one to "ColorID" (the value of this should be 0).  
-![](http://i60.tinypic.com/2is7a08.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_102.jpg)  
 Now change the "Drawing Method" to "Isosurface". Change the material to "Transparent", the "Draw" to "Solid Surface", and the "Isovalue" to 1.  
-![](http://i59.tinypic.com/2vv9y4o.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_103.jpg)  
 
 18. Repeat step 17 but with a ColorID of 1 and an Isovalue of -1 (red for a negative charge is standard because oxygen is typically modeled as red while blue is standard for a positive charge because nitrogen is modeled as blue). The display window should now look something like this:  
-![](http://i61.tinypic.com/25unwup.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_104.jpg)  
 
 19. If you want to visualize surface potentials (instead of isosurfaces), under the "Graphical Representations" window change the coloring method for both reps that are "Isosurface" under the "Style" title to "Surf".  
-![](http://i57.tinypic.com/2lc3gpv.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_105.jpg)  
 
 20. Also change the "Coloring Method" to "Volume" and the Material to "Opaque" for both reps.  
-![](http://i61.tinypic.com/2mfg60m.jpg)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_106.jpg)
 
 21. Under the "Trajectory" tab  
-![](http://i59.tinypic.com/1z3nszs.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_107.jpg)  
 Change the "Color Scale Data Range:" values to -10 and 10 and hit set (do this for both Surf reps).  
-![](http://i58.tinypic.com/a80y.jpg)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_108.jpg)
 
 22. Now the display should have a solid red/blue/white surface that looks like this:  
-![](http://i60.tinypic.com/24fgt2s.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_109.jpg)  
 
 23. By keeping the "Coloring Method" as "Volume", but changing the "Drawing Method" to "FieldLines" you can visualize the local intensity of electric fields.  
-![](http://i61.tinypic.com/1zzozna.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_110.jpg)  
 
 24. Change the "Size" to 2, "GradientMag" to approximately 8.30, "Min Length" to 1.00, and "Max Length" is approximately 200.  
-![](http://i58.tinypic.com/t0n9z8.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_111.jpg)  
 
 25. The final representation should now look like the following:  
-![](http://i59.tinypic.com/vdh447.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_112.jpg)  
 
 <a name="Dimes"></a>
 ##DIME VALUE PROBLEMS
 
 When running APBS, DIME values may become a problem that keeps apbs electrostatic calculations from running. In order to check DIME values, you need to check the .in file for DIME values. One can change the DIME values of an APBS file by going through a text editor and manually changing the dime values. 
 
-![](http://i58.tinypic.com/6eepsl.png) 
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_113.png) 
 
 The picture above shows a sample .in file, which can be obtained after running PDB2PQR on the desired protein. 
 
 Dime values are the dimensions for the XYZ grid for the protein. Each  grid point requires about 160B of memory, and to get the total number if grid points the x,y,z grid elements are multiplied. The multi-grid solver iterates over all of these elements to find the electrostatic potential at each of those locations. If the dimensions are too large, the computer will have a memory problem and will be unable to calculate the electrostatic fields, such as:
 
-![](http://i59.tinypic.com/2v16loz.png)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_114.png)
 
 In order to work around this issue, you must manually change the DIME values to a smaller size. For the HIV-1 RT, I changed the DIME values to 129, which allowed APBS to run as normal and calculate a .dx file. 
 
