@@ -6,7 +6,8 @@ permalink: /examples/comp_tut/
 
 <script src="dist/js/bind-polyfill.js"></script>
 <script src="dist/js/smooth-scroll.js"></script>
-(% include picture_zoom.html %)
+
+
 
 <a name="topcall"></a>
 #Table of Contents:
@@ -478,3 +479,7 @@ In the new APBS release, this was fixed by using an unsigned type that is as big
 [For extra information on signed integers and overflow click HERE](http://en.wikipedia.org/wiki/Two's_complement)
 
 [Click here to return to the top of the page](#topcall)
+
+<script>
+    smoothScroll.init();
+</script>
