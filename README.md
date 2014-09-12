@@ -1,3 +1,13 @@
+---
+layout: examples
+title: Compiled Tutorial
+permalink: /examples/comp_tut/
+---
+
+<script src="dist/js/bind-polyfill.js"></script>
+<script src="dist/js/smooth-scroll.js"></script>
+(% include picture_zoom.html %)
+
 <a name="topcall"></a>
 #Table of Contents:
 
