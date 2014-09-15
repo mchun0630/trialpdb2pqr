@@ -3,3 +3,6 @@ pkg/
 test/
 .DS_Store
 _site/
+Gemfile.lock
+io.mc
+.gitignore
