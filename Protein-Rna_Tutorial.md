@@ -10,39 +10,39 @@
 #####After downloading Git, it is useful to set it to your path so you don't have to change your command prompt to the directory containing git.exe. Make sure you pick one of the files (there could be multiple) that says exactly "git.exe", not like "git-add-exe".
 
 1. Go into "My Computer" and in the upper right corner and search for git.exe: 
-![](http://i60.tinypic.com/2qc08xl.jpg)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tut_Pics_PR/Screenshot_1.jpg)
 <img
     style="width: 640px; height: 480px;" 
-    src="http://i60.tinypic.com/2qc08xl.jpg">  
+    src="https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tut_Pics_PR/Screenshot_1.jpg">  
 
 2. Right click the file that comes up and select "Open file location" (should be near the bottom of the tab that comes up)  
-![](http://i61.tinypic.com/vcw4yv.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tut_Pics_PR/Screenshot_4.jpg)  
 
 3. Copy the path which should look something like this:
-![](http://i59.tinypic.com/5angox.jpg)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tut_Pics_PR/Screenshot_6.jpg)
 
 4. Open the start menu and right click "Computer" and left click properties.  
-![](http://i57.tinypic.com/1zxtyet.jpg)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tut_Pics_PR/Screenshot_7.jpg)
 
 5. Click on "Advanced system settings" which should be in the top left corner.  
-![](http://i58.tinypic.com/1zc1tg8.jpg)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tut_Pics_PR/Screenshot_8.jpg)
 
 6. Under the "Advanced" tab, click "Environment Variables". (Should be in the bottom right)  
 
 7. Make sure "PATH" is selected and click "Edit..."  
-![](http://i57.tinypic.com/2llleue.jpg)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tut_Pics_PR/Screenshot_10.jpg)
 
 8. Go to the far right, add a semi-colon (if one does not already exist), paste the path you copied (step 2) and click ok.  
-![](http://i60.tinypic.com/26425oj.jpg)
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tut_Pics_PR/Screenshot_11.jpg)
 
 #####In order to obtain the needed files (input files, pqr, pdb, etc.) now you have to [clone the repository from github](https://github.com/Electrostatics/apbs-pdb2pqr) 
  
 1. Type "**git clone http://github.com/electrostatics/apbs-pdb2pqr.git**" into your command prompt (this may take a while).
-![](http://i57.tinypic.com/vinneh.jpg)  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tut_Pics_PR/Screenshot_13.jpg)  
 <img
-    style="width: 640px; height: 250px;" 
-    src="http://i57.tinypic.com/vinneh.jpg">  
-If you are still at all confused how to fork a repository you can [use this practice example](https://help.github.com/articles/fork-a-repo) to learn how.
+    style="width: 640px; height: 220px;" 
+    src="https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tut_Pics_PR/Screenshot_13.jpg">  
+If you are at all confused how to get the repository you can [use this practice example](https://help.github.com/articles/fork-a-repo) to learn how.
 
 2. Now, find the "template.in" file in the "**apbs-pdb2pqr/apbs/examples/protein-rna**" folder that you just cloned, if you don't know where it is you can search your computer again for the "apbs-pdb2pqr" folder (use the "**dir**" command in order to see what files are in the current "directory" (folder)).  
 ![](http://i61.tinypic.com/2n8btyt.jpg)  
