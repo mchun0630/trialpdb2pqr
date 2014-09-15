@@ -10,7 +10,9 @@ permalink: /examples/comp_tut/
 
 
 <a name="topcall"></a>
-#Table of Contents:
+<h1>Table of Contents:</<script>
+    smoothScroll.init();
+</script>
 
 
 * [VMD Tutorials](#vmd)
