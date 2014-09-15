@@ -6,7 +6,8 @@ permalink: /examples/comp_tut/
 
 <script src="dist/js/bind-polyfill.js"></script>
 <script src="dist/js/smooth-scroll.js"></script>
-(% include picture_zoom.html %)
+
+
 
 <a name="topcall"></a>
 #Table of Contents:
@@ -483,4 +484,8 @@ In the new APBS release, this was fixed by using an unsigned type that is as big
 
 <script>
     smoothScroll.init();
+<<<<<<< HEAD
 </script>
+=======
+</script>
+>>>>>>> origin/master
