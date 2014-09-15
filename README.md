@@ -40,8 +40,10 @@ permalink: /examples/comp_tut/
 	* [Download Python](https://www.python.org/) (*This is written using Python 2.7 )
 	* [Download Matplotlib](http://matplotlib.org/)
 
+<a data-scroll href="#vmd">vmd</a>
+...
+<span id="bazinga">Bazinga!</span>
 
-<a data-scroll name="vmd"></a>
 ## VMD
 
 <a name="3dprot"></a>
@@ -484,4 +486,12 @@ In the new APBS release, this was fixed by using an unsigned type that is as big
 
 <script>
     smoothScroll.init();
+<<<<<<< HEAD
+<<<<<<< HEAD
 </script>
+=======
+</script>
+>>>>>>> origin/master
+=======
+</script>
+>>>>>>> origin/master
