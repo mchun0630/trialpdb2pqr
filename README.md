@@ -1,8 +1,3 @@
----
-layout: examples
-title: Compiled Tutorial
-permalink: /examples/comp_tut/
----
 
 <script src="dist/js/bind-polyfill.js"></script>
 <script src="dist/js/smooth-scroll.js"></script>
@@ -10,7 +5,8 @@ permalink: /examples/comp_tut/
 
 
 <a name="topcall"></a>
-<h1>Table of Contents:</<script>
+<h1>Table of Contents: </h1>
+<script>
     smoothScroll.init();
 </script>
 
