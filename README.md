@@ -488,10 +488,19 @@ In the new APBS release, this was fixed by using an unsigned type that is as big
     smoothScroll.init();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 </script>
 =======
 </script>
 >>>>>>> origin/master
 =======
 </script>
+=======
+</script>
+=======
+</script>
+>>>>>>> origin/master
+=======
+</script>
+>>>>>>> origin/master
 >>>>>>> origin/master
