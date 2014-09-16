@@ -8,7 +8,7 @@ permalink: /examples/comp_tut/
 #Table of Contents:
 
 
-* [VMD Tutorials](#vmd)
+* <a name="#vmdtut">VMD Tutorials</a>
 	* [How to get a 3-D protein structure](#3dprot)
 	* [How to find a Ligand](#ligand)
 	* [How to find a Residue](#residue)
@@ -34,7 +34,7 @@ permalink: /examples/comp_tut/
 	* [Download Matplotlib](http://matplotlib.org/)
 
 
-<a name="vmd"></a>
+<a data-scroll name="bazinga">Anchor Link</a>
 ## VMD
 
 <a name="3dprot"></a>
@@ -474,3 +474,7 @@ In the new APBS release, this was fixed by using an unsigned type that is as big
 [For extra information on signed integers and overflow click HERE](http://en.wikipedia.org/wiki/Two's_complement)
 
 [Click here to return to the top of the page](#topcall)
+
+<script>
+    smoothScroll.init();
+</script>
