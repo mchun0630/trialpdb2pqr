@@ -40,7 +40,7 @@ permalink: /examples/comp_tut/
 <a name="3dprot"></a>
 ### How to get a 3-D protein structure 
 
-1. Go to desired Protein Page [(pic)](http://oi60.tinypic.com/2zs8xti.jpg)
+1. Go to desired Protein Page [(pic)](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Screenshot_1.png)
 
 2. On the right hand corner, hit the "download files" option  
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_1.png)  
