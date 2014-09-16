@@ -5,7 +5,7 @@ permalink: /examples/comp_tut/
 ---
 
 <a name="topcall"></a>
-#Table of Contents:
+<h1>Table of Contents:</h1>
 
 
 * <a name="#vmdtut">VMD Tutorials</a>
@@ -35,10 +35,10 @@ permalink: /examples/comp_tut/
 
 
 <a data-scroll name="bazinga">Anchor Link</a>
-## VMD
+<h2>VMD<h2>
 
 <a name="3dprot"></a>
-### How to get a 3-D protein structure 
+<h3> How to get a 3-D protein structure </h3>
 
 1. Go to desired Protein Page [(pic)](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Screenshot_1.png)
 
@@ -65,7 +65,7 @@ Click the "Load" button, and your saved protein will load in the VMD window as a
 <hr/>
 
 <a name="ligand"></a>
-######How to find a Ligand
+<h6>How to find a Ligand</h6>
 
 1. First, your 3-D protein structure should be loaded
 on the VMD Main window, click 
@@ -85,7 +85,7 @@ and the chosen ligand will appear
 [Click here to return to the top of the page](#topcall)
 <hr/>
 <a name="residue"></a>
-######How to find a Residue
+<h6>How to find a Residue</h6>
 
 1. First, your 3-D protein structure should be loaded
 on the VMD Main window, click 
@@ -102,7 +102,7 @@ on the VMD Main window, click
 [Click here to return to the top of the page](#topcall)
 <hr/>
 <a name="mutate"></a>
-######How to Mutate a Protein
+<h6>How to Mutate a Protein</h6>
 
 1.  First, one must take their pdb file (taken from pdb.org) and convert it into a psf file. This is done by hitting ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_17.png) in the VMD main window, then ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_18.png), and finally ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_19.png). You will this on your screen:  
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_20.png)
@@ -138,10 +138,10 @@ The mutated protein will now appear in your VMD window
 
 [Click here to return to the top of the page](#topcall)
 <a name="PDB2PQR"></a>
-##PDB2PQR
+<h2>PDB2PQR</h2>
 
 <a name="IntroPDB"></a>
-######Introduction to PDB2PQR
+<h6>Introduction to PDB2PQR</h6>
 
 [Use the online pdb2pqr website to run pdb2pqr](http://nbcr-222.ucsd.edu/pdb2pqr_1.9.0/) (changes file from pdb to the pqr format, this adds missing hydrogens, adds some missing heavy atoms, and optimizes the protein structure among other things)
 
@@ -160,7 +160,7 @@ An interesting thing to keep in mind whilst using pdb2pqr:
 
 [Click here to return to the top of the page](#topcall)
 <a name="Download"></a>
-######Downloading a PDB or PQR file for Offline APBS 
+<h6>Downloading a PDB or PQR file for Offline APBS </h6>
 
 1. After running PDB2PQR from the website, click on the file under "Input Files" labeled something like "14084693082.pdb" (the number will be different but it will have a .pdb ending). This should start a download   
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_42.jpg)  
@@ -175,15 +175,15 @@ An interesting thing to keep in mind whilst using pdb2pqr:
 
 [Click here to return to the top of the page](#topcall)
 <a name="APBS"></a>
-##APBS
+<h2>APBS</h2>
 
 <a name="IntroAPBS"></a>
-######Introduction to APBS
+<h6>Introduction to APBS</h6>
 
 APBS is a useful tool to find the electrostatic field of a protein. Certain components need to be in place for APBS to work including _white spaces must be in place_  
 
 <a name="OnlineAPBS"></a>
-######How to run a protein through APBS (online)
+<h6>How to run a protein through APBS (online)</h6>
 
 The steps follow the same steps in making a PDB2PQR protein model structure, except for a small difference. 
 
@@ -198,7 +198,7 @@ The steps follow the same steps in making a PDB2PQR protein model structure, exc
 
 [Click here to return to the top of the page](#topcall)
 <a name="SetupAPBS"></a>
-######Setting up your computer for APBS
+<h6>Setting up your computer for APBS</h6>
 
 *DISCLAIMER: THIS IS FOR WINDOWS USERS ONLY (?)
 
@@ -231,9 +231,9 @@ You can now run APBS!
 
 [Click here to return to the top of the page](#topcall)
 <a name="CMDAPBS"></a>
-######How to run APBS from the command line
+<h6>How to run APBS from the command line</h6>
 
-####DISCALIMER: THIS TUTORIAL IS USING A WINDOWS COMPUTER AND WINDOWS COMMAND PROMPT
+<h6>DISCALIMER: THIS TUTORIAL IS USING A WINDOWS COMPUTER AND WINDOWS COMMAND PROMPT</h6>
 
 1. First, before running APBS through the command line, you must make sure your desired protein files are in the same folder as the apbs command prompt. If APBS downloaded correctly, it should be in your C drive (![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_53.png)) when you open "computer" from your start menu. 
 
@@ -265,10 +265,10 @@ You are done running APBS!
 
 [Click here to return to the top of the page](#topcall)
 <a name="APBSvis"></a>
-##APBS and Visualization
+<h2>APBS and Visualization</h2>
 
 <a name="PyMol"></a>
-######PyMol
+<h6>PyMol</h6>
 
 [The needed protein for this PyMol tutorial](http://www.rcsb.org/pdb/explore/explore.do?structureId=1fas) (1FAS a.k.a Fasciculin-1).  Fasciculin-1 is an acetylcholinesterase (this compound ends the communication between muscle cells) inhibitor found in the venom of the green mamba. This allows the action potential to go uncurbed which causes small involuntary muscle contractions (it paralyzes the injected subject).
 
@@ -342,7 +342,7 @@ The picture should look somewhat similar to this:
 
 [Click here to return to the top of the page](#topcall)
 <a name="VMD"></a>
-######VMD
+<h6>VMD</h6>
 
 [The needed protein for this VMD tutorial](http://www.rcsb.org/pdb/explore/explore.do?pdbId=1MYK) (1MYK a.k.a Hyperstable Arc Repressor Mutant PL8). An arc repressor is a small protein that acts as a transcription factor. This is a mutant that has the Proline-8 (in location 8) replaced by a Leucine. This creates enhanced stability due to an extra hydrogen bond, but also decreases the affinity of the molecule to bind to DNA.
 
@@ -438,7 +438,7 @@ Change the "Color Scale Data Range:" values to -10 and 10 and hit set (do this f
 
 [Click here to return to the top of the page](#topcall)
 <a name="Dimes"></a>
-##DIME VALUE PROBLEMS
+<h2>DIME VALUE PROBLEMS</h2>
 
 When running APBS, DIME values may become a problem that keeps apbs electrostatic calculations from running. In order to check DIME values, you need to check the .in file for DIME values. One can change the DIME values of an APBS file by going through a text editor and manually changing the dime values. 
 
