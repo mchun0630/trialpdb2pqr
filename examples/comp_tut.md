@@ -7,10 +7,8 @@ permalink: /examples/comp_tut/
 <a name="topcall"></a>
 #Table of Contents:
 
-<script src="dist/js/bind-polyfill.js"></script>
-<script src="dist/js/smooth-scroll.js"></script>
 
-* <a data-scroll href="#vmdtut">VMD Tutorials</a>
+* <a name="#vmdtut">VMD Tutorials</a>
 	* [How to get a 3-D protein structure](#3dprot)
 	* [How to find a Ligand](#ligand)
 	* [How to find a Residue](#residue)
@@ -36,7 +34,7 @@ permalink: /examples/comp_tut/
 	* [Download Matplotlib](http://matplotlib.org/)
 
 
-<a id="vmdtut">
+<a data-scroll name="bazinga">Anchor Link</a>
 ## VMD
 
 <a name="3dprot"></a>
@@ -63,7 +61,7 @@ Go below to "Determine File Type", and click file type, which in this case, is P
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_6.png)
 Click the "Load" button, and your saved protein will load in the VMD window as a 3-D protein structure
 
-[Click here to return to the top of the page](#topcall)  
+[Click here to return to the top of the page](#topcall)
 <hr/>
 
 <a name="ligand"></a>
@@ -84,7 +82,7 @@ on the VMD Main window, click
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_11.png)
 and the chosen ligand will appear
 
-[Click here to return to the top of the page](#topcall)  
+[Click here to return to the top of the page](#topcall)
 <hr/>
 <a name="residue"></a>
 ######How to find a Residue
@@ -101,7 +99,7 @@ on the VMD Main window, click
 
 4. Hit ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_16.png)and the chosen residue will appear
 
-[Click here to return to the top of the page](#topcall)  
+[Click here to return to the top of the page](#topcall)
 <hr/>
 <a name="mutate"></a>
 ######How to Mutate a Protein
@@ -138,7 +136,7 @@ You do not have to check the ![](https://raw.githubusercontent.com/PEMIfolder/gi
 10. Finally, click ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_40.png)  
 The mutated protein will now appear in your VMD window 
 
-[Click here to return to the top of the page](#topcall)  
+[Click here to return to the top of the page](#topcall)
 <a name="PDB2PQR"></a>
 ##PDB2PQR
 
@@ -160,7 +158,7 @@ Since I want my file to be compatible with VMD, for the both settings named "Pic
 An interesting thing to keep in mind whilst using pdb2pqr:
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_41.jpg)
 
-[Click here to return to the top of the page](#topcall)  
+[Click here to return to the top of the page](#topcall)
 <a name="Download"></a>
 ######Downloading a PDB or PQR file for Offline APBS 
 
@@ -175,7 +173,7 @@ An interesting thing to keep in mind whilst using pdb2pqr:
 3. Now you should download the same numbered file under "Output files" (mine is called 1408469302.pqr). This time you cannot click on it (as it will just bring up the a webpage with all the information in the file. You must right click and "Save link as..." this time. Also make sure the downloaded file ends in a .pqr but once again the number will not be the same as the one in this picture.  
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_44.jpg)
 
-[Click here to return to the top of the page](#topcall)  
+[Click here to return to the top of the page](#topcall)
 <a name="APBS"></a>
 ##APBS
 
@@ -198,7 +196,7 @@ The steps follow the same steps in making a PDB2PQR protein model structure, exc
 
 \* Note: Unzipping the .dx.gz file can be done using any unzipping program 
 
-[Click here to return to the top of the page](#topcall)  
+[Click here to return to the top of the page](#topcall)
 <a name="SetupAPBS"></a>
 ######Setting up your computer for APBS
 
@@ -231,7 +229,7 @@ and click ok.
 
 You can now run APBS!
 
-[Click here to return to the top of the page](#topcall)  
+[Click here to return to the top of the page](#topcall)
 <a name="CMDAPBS"></a>
 ######How to run APBS from the command line
 
@@ -265,7 +263,7 @@ Once you find your IN file, hit enter and APBS will run its calculations and sav
 
 You are done running APBS!
 
-[Click here to return to the top of the page](#topcall)  
+[Click here to return to the top of the page](#topcall)
 <a name="APBSvis"></a>
 ##APBS and Visualization
 
@@ -342,7 +340,7 @@ Using values of 5, this is the picture that appears (common isovalues are 1,5,10
 The picture should look somewhat similar to this:  
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_80.jpg)  
 
-[Click here to return to the top of the page](#topcall)  
+[Click here to return to the top of the page](#topcall)
 <a name="VMD"></a>
 ######VMD
 
@@ -438,7 +436,7 @@ Change the "Color Scale Data Range:" values to -10 and 10 and hit set (do this f
 25. The final representation should now look like the following:  
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_112.jpg)  
 
-[Click here to return to the top of the page](#topcall)  
+[Click here to return to the top of the page](#topcall)
 <a name="Dimes"></a>
 ##DIME VALUE PROBLEMS
 
@@ -475,15 +473,8 @@ In the new APBS release, this was fixed by using an unsigned type that is as big
 
 [For extra information on signed integers and overflow click HERE](http://en.wikipedia.org/wiki/Two's_complement)
 
-[Click here to return to the top of the page](#topcall)  
+[Click here to return to the top of the page](#topcall)
 
 <script>
-smoothScroll.init({
-    speed: 500, // Integer. How fast to complete the scroll in milliseconds
-    easing: 'easeInOutCubic', // Easing pattern to use
-    updateURL: true, // Boolean. Whether or not to update the URL with the anchor hash on scroll
-    offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
-    callbackBefore: function ( toggle, anchor ) {}, // Function to run before scrolling
-    callbackAfter: function ( toggle, anchor ) {} // Function to run after scrolling
-});
+    smoothScroll.init();
 </script>
