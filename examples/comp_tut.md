@@ -36,13 +36,8 @@ permalink: /examples/comp_tut/
 	* [Download Matplotlib](http://matplotlib.org/)
 
 
-<<<<<<< HEAD
-<a data-scroll name="bazinga">Anchor Link</a>
-<h2>VMD<h2>
-=======
-<a id="vmdtut">
 <h2> VMD </h2>
->>>>>>> origin/master
+
 
 <a name="3dprot"></a>
 <h3> How to get a 3-D protein structure </h3>
