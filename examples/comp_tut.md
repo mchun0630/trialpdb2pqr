@@ -16,6 +16,10 @@ permalink: /examples/comp_tut/
 <script src="/js/dg-picture-zoom.js"></script>
 <script src="/js/dg-picture-zoom-autoload.js"></script>
 
+<head>
+  <link rel="stylesheet" href="animate.min.css">
+</head>
+
 * <a data-scroll href="#vmdtut">VMD Tutorials</a>
 	* <a data-scroll href="#prot3d">How to get a 3-D protein structure</a>
 	* <a data-scroll href="#ligand">How to find a Ligand</a>
