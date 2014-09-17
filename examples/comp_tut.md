@@ -12,7 +12,7 @@ permalink: /examples/comp_tut/
 
 <link rel="stylesheet" href="/css/dg-picture-zoom.css" type="text/css" />
 <script src="/js/external/mootools-1.2.4-core-yc.js"></script>
-<script src="/scripts/picture-zoom/js/external/mootools-more.js"></script>
+<script src="/js/external/mootools-more.js"></script>
 <script src="/js/dg-picture-zoom.js"></script>
 <script src="/js/dg-picture-zoom-autoload.js"></script>
 
@@ -53,7 +53,7 @@ permalink: /examples/comp_tut/
 
 2. On the right hand corner, hit the "download files" option  
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_1.png)  
-<img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom">
+<img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
 <img src="/images/image1.jpg?url=/images/image1_big.jpg" class="dg-picture-zoom" id="picture1">
 
 3. Now, select desired file type. For this tutorial, the PBD File (TEXT) was selected  
