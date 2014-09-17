@@ -10,7 +10,13 @@ permalink: /examples/comp_tut/
 <script src="dist/js/bind-polyfill.js"></script>
 <script src="dist/js/smooth-scroll.js"></script>
 
-* <a name="#vmdtut">VMD Tutorials</a>
+<link rel="stylesheet" href="/css/dg-picture-zoom.css" type="text/css" />
+<script src="/js/external/mootools-1.2.4-core-yc.js"></script>
+<script src="/scripts/picture-zoom/js/external/mootools-more.js"></script>
+<script src="/js/dg-picture-zoom.js"></script>
+<script src="/js/dg-picture-zoom-autoload.js"></script>
+
+* <a smooth-scroll href="#vmdtut">VMD Tutorials</a>
 	* [How to get a 3-D protein structure](#3dprot)
 	* [How to find a Ligand](#ligand)
 	* [How to find a Residue](#residue)
@@ -35,9 +41,8 @@ permalink: /examples/comp_tut/
 	* [Download Python](https://www.python.org/) (*This is written using Python 2.7 )
 	* [Download Matplotlib](http://matplotlib.org/)
 
-
+<a id="vmdtut"></a>
 <h2> VMD </h2>
-
 
 <a name="3dprot"></a>
 <h3> How to get a 3-D protein structure </h3>
@@ -46,7 +51,8 @@ permalink: /examples/comp_tut/
 
 2. On the right hand corner, hit the "download files" option  
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_1.png)  
-<img src="https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/_includes/Picture-zoom/pictures_zoom.js" class="dg-picture-zoom">
+<img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom">
+<img src="/images/image1.jpg?url=/images/image1_big.jpg" class="dg-picture-zoom" id="picture1">
 
 3. Now, select desired file type. For this tutorial, the PBD File (TEXT) was selected  
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_2.png)  
