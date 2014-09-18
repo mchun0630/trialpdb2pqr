@@ -54,7 +54,9 @@ permalink: /examples/comp_tut/
 <h3> How to get a 3-D protein structure </h3>
 
 1. Go to desired Protein Page 
-<a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=4B3O" target="_blank">Example PDB Page Here</a>
+<form action="http://www.rcsb.org/pdb/explore/explore.do?structureId=4B30">
+<input type="submit" value="Example PDB Page Here">
+</form>
 
 2. On the right hand corner, hit the "download files" option  
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_1.png)  
