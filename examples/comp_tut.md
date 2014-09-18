@@ -17,10 +17,6 @@ permalink: /examples/comp_tut/
 <script src="/js/dg-picture-zoom.js"></script>
 <script src="/js/dg-picture-zoom-autoload.js"></script>
 
-<head>
-  <link rel="stylesheet" href="animate.min.css">
-</head>
-
 * <a data-scroll href="#vmdtut">VMD Tutorials</a>
 	* <a data-scroll href="#prot3d">How to get a 3-D protein structure</a>
 	* <a data-scroll href="#ligand">How to find a Ligand</a>
@@ -53,8 +49,12 @@ permalink: /examples/comp_tut/
 <a id="prot3d"></a>
 <h3> How to get a 3-D protein structure </h3>
 
+
 1. Go to desired Protein Page
 <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=4b3o" target="BLANK">(4B3O a.k.a. HIV Reverse Transcriptase)</a>
+
+1. Go to desired Protein Page 
+<a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=4B3O" target="_blank">Example PDB Page Here</a>
 
 2. On the right hand corner, hit the "download files" option   
 <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture1">
