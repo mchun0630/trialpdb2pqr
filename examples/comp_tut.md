@@ -53,15 +53,13 @@ permalink: /examples/comp_tut/
 <a id="prot3d"></a>
 <h3> How to get a 3-D protein structure </h3>
 
-Go to desired Protein Page 
-
+1. Go to desired Protein Page 
 <form action="http://www.rcsb.org/pdb/explore/explore.do?structureId=4B30">
 <input type="submit" value="Go to Protein Page">
 </form>
 
 2. On the right hand corner, hit the "download files" option  
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_1.png)  
-
 <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture1">
 
 3. Now, select desired file type. For this tutorial, the PBD File (TEXT) was selected  
@@ -72,15 +70,14 @@ Once you click the file, download should start immediately. Save the file in des
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_3.png)
 <img src="/Tutorial_pics_in_order/Tutorial_pic_3.png?url=/Tutorial_pics_in_order/Tutorial_pic_3_big.png" class="dg-picture-zoom" id="picture3">
 
-5. Click ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_4.png)
-<img src="/Tutorial_pics_in_order/Tutorial_pic_4.png?url=/Tutorial_pics_in_order/Tutorial_pic_4_big.png" class="dg-picture-zoom" id="picture2">, then click "new molecule" A Molecule File Browser will pop up as such  
+5. Click ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_4.png), then click "new molecule" A Molecule File Browser will pop up as such  
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_5.png) 
-<img src="/Tutorial_pics_in_order/Tutorial_pic_5.png?url=/Tutorial_pics_in_order/Tutorial_pic_5_big.png" class="dg-picture-zoom" id="picture2"> 
+<img src="/Tutorial_pics_in_order/Tutorial_pic_5.png?url=/Tutorial_pics_in_order/Tutorial_pic_5_big.png" class="dg-picture-zoom" id="picture5"> 
 
 6. Click "Browse...", and then click and open saved Protein file. 
 Go below to "Determine File Type", and click file type, which in this case, is PDB
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_6.png)
-<img src="/Tutorial_pics_in_order/Tutorial_pic_6.png?url=/Tutorial_pics_in_order/Tutorial_pic_6_big.png" class="dg-picture-zoom" id="picture2">
+<img src="/Tutorial_pics_in_order/Tutorial_pic_6.png?url=/Tutorial_pics_in_order/Tutorial_pic_6_big.png" class="dg-picture-zoom" id="picture6">
 Click the "Load" button, and your saved protein will load in the VMD window as a 3-D protein structure
 
 <a data-scroll href="#topcall">Click here to return to the top of the page</a>  
@@ -119,7 +116,7 @@ on the VMD Main window, click
 
 2. Next, the Graphical Representations Window will open  
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_14.png)
-<img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+<img src="/Tutorial_pics_in_order/Tutorial_pic_14.png?url=/Tutorial_pics_in_order/Tutorial_pic_14_big.png" class="dg-picture-zoom" id="picture14">
 
 3. Under ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_15.png), delete the text "all" and enter "resid (insert residue number)" to find the desired residue number
 
