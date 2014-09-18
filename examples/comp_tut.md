@@ -61,6 +61,7 @@ Go to desired Protein Page
 
 2. On the right hand corner, hit the "download files" option  
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_1.png)  
+
 <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture1">
 
 3. Now, select desired file type. For this tutorial, the PBD File (TEXT) was selected  
@@ -69,7 +70,7 @@ Once you click the file, download should start immediately. Save the file in des
 
 4. Next, open up VMD  
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_3.png)
-<img src="/Tutorial_pics_in_order/Tutorial_pic_3.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture3">
+<img src="/Tutorial_pics_in_order/Tutorial_pic_3.png?url=/Tutorial_pics_in_order/Tutorial_pic_3_big.png" class="dg-picture-zoom" id="picture3">
 
 5. Click ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_4.png)
 <img src="/Tutorial_pics_in_order/Tutorial_pic_4.png?url=/Tutorial_pics_in_order/Tutorial_pic_4_big.png" class="dg-picture-zoom" id="picture2">, then click "new molecule" A Molecule File Browser will pop up as such  
@@ -190,15 +191,15 @@ An interesting thing to keep in mind whilst using pdb2pqr:
 <h6>Downloading a PDB or PQR file for Offline APBS </h6>
 
 1. After running PDB2PQR from the website, click on the file under "Input Files" labeled something like "14084693082.pdb" (the number will be different but it will have a .pdb ending). This should start a download   
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_42.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_42.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_42.png?url=/Tutorial_pics_in_order/Tutorial_pic_42_big.png" class="dg-picture-zoom" id="picture2">  
 **\*(It is useful to rename the file to 1FAS.pdb because it gets confusing when you have many different strings of numbers for different proteins)**
 
 2. If the link didn't download, right click on this link and click "Save link as..." and save the file where you want to be able to find it.  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_43.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_43.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_43.png?url=/Tutorial_pics_in_order/Tutorial_pic_43_big.png" class="dg-picture-zoom" id="picture2">  
 **\*(You should rename this file too)**
 
 3. Now you should download the same numbered file under "Output files" (mine is called 1408469302.pqr). This time you cannot click on it (as it will just bring up the a webpage with all the information in the file. You must right click and "Save link as..." this time. Also make sure the downloaded file ends in a .pqr but once again the number will not be the same as the one in this picture.  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_44.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_44.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_44.png?url=/Tutorial_pics_in_order/Tutorial_pic_44_big.png" class="dg-picture-zoom" id="picture2">
 
 <a data-scroll href="#topcall">Click here to return to the top of the page</a>  
 <a id="APBS"></a>
@@ -215,9 +216,9 @@ APBS is a useful tool to find the electrostatic field of a protein. Certain comp
 The steps follow the same steps in making a PDB2PQR protein model structure, except for a small difference. 
 
 1. When making the PDB2PQR, check the option for allowing the program to have an APBS option, and in addition adding the insert white space link in the options, like so: 
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_45.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_45.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_45.png?url=/Tutorial_pics_in_order/Tutorial_pic_45_big.png" class="dg-picture-zoom" id="picture2">  
 
-2. Then, click submit, and it will take you to the page for the PDB2PQR runned protein. On the bottom of the page, click ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_46.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2"> and wait until APBS is done running.  
+2. Then, click submit, and it will take you to the page for the PDB2PQR runned protein. On the bottom of the page, click ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_46.jpg)  and wait until APBS is done running.  
 
 3. Then download the .dx.gz file, and that is the end of your APBS session.
 
@@ -235,22 +236,22 @@ Why use the command line? It gives the user much more power over executable func
 
 1. First, in order to run APBS at all, you need to make a directory connecting APBS to the command line. 
 To do so, go to the start menu, and right click on 'computer' The following should open:  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_47.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_47.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_47.png?url=/Tutorial_pics_in_order/Tutorial_pic_47_big.png" class="dg-picture-zoom" id="picture2">  
 
 2. Click on properties, and the following should open:  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_48.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_48.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_48.png?url=/Tutorial_pics_in_order/Tutorial_pic_48_big.png" class="dg-picture-zoom" id="picture2">  
 
 3. Click on 'Advanced System Settings' ; the computer will ask you if you want to change settings. Click yes, and then the system properties window will open.  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_49.png)   <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2"> 
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_49.png)   <img src="/Tutorial_pics_in_order/Tutorial_pic_49.png?url=/Tutorial_pics_in_order/Tutorial_pic_49_big.png" class="dg-picture-zoom" id="picture2"> 
 
 4. Click 
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_50.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2"> , and another window will pop up.  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_51.png)   <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2"> 
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_50.png), and another window will pop up.  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_51.png)   <img src="/Tutorial_pics_in_order/Tutorial_pic_51.png?url=/Tutorial_pics_in_order/Tutorial_pic_51_big.png" class="dg-picture-zoom" id="picture2"> 
 
 5. This is where you'll write your path. Click on the 
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_52.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2"> to create a new path.  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_52.png) to create a new path.  
 
-6. TO make the directory, simply copy and paste  
+6. To make the directory, simply copy and paste  
 **C:\Python27\;C:\Python27\Scripts;C:\Util\pdb2pqr-windows-bin-1.9.0;C:\apbs\bin**  
 and click ok. 
 
