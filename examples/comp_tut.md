@@ -55,7 +55,7 @@ permalink: /examples/comp_tut/
 
 1. Go to desired Protein Page 
 <form action="http://www.rcsb.org/pdb/explore/explore.do?structureId=4B30">
-<input type="submit" value="Go to Protein Page">
+<input type="submit" value="Go to Desired Protein Page">
 </form>
 
 2. On the right hand corner, hit the "download files" option  
@@ -289,6 +289,44 @@ Once you find your IN file, hit enter and APBS will run its calculations and sav
 You are done running APBS!
 
 <a data-scroll href="#topcall">Click here to return to the top of the page</a>  
+
+<a id="Dimes"></a>
+<h2>DIME VALUE PROBLEMS</h2>
+
+When running APBS, DIME values may become a problem that keeps apbs electrostatic calculations from running. In order to check DIME values, you need to check the .in file for DIME values. One can change the DIME values of an APBS file by going through a text editor and manually changing the dime values. 
+
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_113.png)    <img src="/Tutorial_pics_in_order/Tutorial_pic_113.png?url=/Tutorial_pics_in_order/Tutorial_pic_113_big.png" class="dg-picture-zoom" id="picture2">
+
+The picture above shows a sample .in file, which can be obtained after running PDB2PQR on the desired protein. 
+
+Dime values are the dimensions for the XYZ grid for the protein. Each  grid point requires about 160B of memory, and to get the total number if grid points the x,y,z grid elements are multiplied. The multi-grid solver iterates over all of these elements to find the electrostatic potential at each of those locations. If the dimensions are too large, the computer will have a memory problem and will be unable to calculate the electrostatic fields, such as:
+
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_114.png)    <img src="/Tutorial_pics_in_order/Tutorial_pic_114.png?url=/Tutorial_pics_in_order/Tutorial_pic_114_big.png" class="dg-picture-zoom" id="picture2">
+
+In order to work around this issue, you must manually change the DIME values to a smaller size. For the HIV-1 RT, I changed the DIME values to 129, which allowed APBS to run as normal and calculate a .dx file. 
+
+Choosing the appropriate DIME value will fix the memory problems that may occur. The reason problems with DIME values may be too big is when PDB2PQR calculates the input file, it measures DIME values based on the size of the protein. For example,with HIV-1, it is protein with 2 chains of 400+ residues, and so the DIME values are unnecessarily large. 
+  
+To expand on DIME values, since a computer only knows about 1s and 0s convention is used to encode and decode values to the bits and bytes in memory; this is often called a type system.  An 8 bit byte has eight slots for a bit (1 or 0); therefore, if you are only considering positive numbers, it may hold a value between 0 (00000000) and 2^8 – 1  (11111111) which is 255 (though 2^8 is 256, and we have to subtract one because '0' takes up a slot).
+
+To represent negative numbers, APBS uses the two's compliment encoding. This means if the left-most bit is a 1, then the number is negative, and so we invert the bits (change 0's to 1's and 1's to 0's), add 1, and read the value.  As an example, below is a table that shows the values of  just four bits (a nibble) that are decoded as unsigned and signed (using two's compliment) integers:
+
+0000 = 0  :  0
+0001 = 1  :  1
+0010 = 2  :  2
+0011 = 3  :  3
+1101 = 13 : -3
+1110 = 14 : -2
+1111 = 15 : -1 
+
+
+The problem is that APBS used a signed integer in the 1.4 release to store the total number of elements.  If the total got bigger than 2^(n-1) - 1, where n is the width of the integer (in our case a 32 bit wide int so 2^(n-1) = 2,147,483,648) then the number "overflowed" and looked like a negative number.  
+
+In the new APBS release, this was fixed by using an unsigned type that is as big as the machine can support, generally a 64 bit number.
+
+[For extra information on signed integers and overflow click HERE](http://en.wikipedia.org/wiki/Two's_complement)
+
+<a data-scroll href="#topcall">Click here to return to the top of the page</a>  
 <a id="APBSvis"></a>
 <h2>APBS and Visualization</h2>
 
@@ -459,43 +497,6 @@ Change the "Color Scale Data Range:" values to -10 and 10 and hit set (do this f
 25. The final representation should now look like the following:  
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_112.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_112.png?url=/Tutorial_pics_in_order/Tutorial_pic_112_big.png" class="dg-picture-zoom" id="picture2">
  
-<a data-scroll href="#topcall">Click here to return to the top of the page</a>  
-<a id="Dimes"></a>
-<h2>DIME VALUE PROBLEMS</h2>
-
-When running APBS, DIME values may become a problem that keeps apbs electrostatic calculations from running. In order to check DIME values, you need to check the .in file for DIME values. One can change the DIME values of an APBS file by going through a text editor and manually changing the dime values. 
-
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_113.png)    <img src="/Tutorial_pics_in_order/Tutorial_pic_113.png?url=/Tutorial_pics_in_order/Tutorial_pic_113_big.png" class="dg-picture-zoom" id="picture2">
-
-The picture above shows a sample .in file, which can be obtained after running PDB2PQR on the desired protein. 
-
-Dime values are the dimensions for the XYZ grid for the protein. Each  grid point requires about 160B of memory, and to get the total number if grid points the x,y,z grid elements are multiplied. The multi-grid solver iterates over all of these elements to find the electrostatic potential at each of those locations. If the dimensions are too large, the computer will have a memory problem and will be unable to calculate the electrostatic fields, such as:
-
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_114.png)    <img src="/Tutorial_pics_in_order/Tutorial_pic_114.png?url=/Tutorial_pics_in_order/Tutorial_pic_114_big.png" class="dg-picture-zoom" id="picture2">
-
-In order to work around this issue, you must manually change the DIME values to a smaller size. For the HIV-1 RT, I changed the DIME values to 129, which allowed APBS to run as normal and calculate a .dx file. 
-
-Choosing the appropriate DIME value will fix the memory problems that may occur. The reason problems with DIME values may be too big is when PDB2PQR calculates the input file, it measures DIME values based on the size of the protein. For example,with HIV-1, it is protein with 2 chains of 400+ residues, and so the DIME values are unnecessarily large. 
-  
-To expand on DIME values, since a computer only knows about 1s and 0s convention is used to encode and decode values to the bits and bytes in memory; this is often called a type system.  An 8 bit byte has eight slots for a bit (1 or 0); therefore, if you are only considering positive numbers, it may hold a value between 0 (00000000) and 2^8 – 1  (11111111) which is 255 (though 2^8 is 256, and we have to subtract one because '0' takes up a slot).
-
-To represent negative numbers, APBS uses the two's compliment encoding. This means if the left-most bit is a 1, then the number is negative, and so we invert the bits (change 0's to 1's and 1's to 0's), add 1, and read the value.  As an example, below is a table that shows the values of  just four bits (a nibble) that are decoded as unsigned and signed (using two's compliment) integers:
-
-0000 = 0  :  0
-0001 = 1  :  1
-0010 = 2  :  2
-0011 = 3  :  3
-1101 = 13 : -3
-1110 = 14 : -2
-1111 = 15 : -1 
-
-
-The problem is that APBS used a signed integer in the 1.4 release to store the total number of elements.  If the total got bigger than 2^(n-1) - 1, where n is the width of the integer (in our case a 32 bit wide int so 2^(n-1) = 2,147,483,648) then the number "overflowed" and looked like a negative number.  
-
-In the new APBS release, this was fixed by using an unsigned type that is as big as the machine can support, generally a 64 bit number.
-
-[For extra information on signed integers and overflow click HERE](http://en.wikipedia.org/wiki/Two's_complement)
-
 <a data-scroll href="#topcall">Click here to return to the top of the page</a>  
 
 <script>
