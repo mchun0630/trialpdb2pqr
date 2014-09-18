@@ -57,8 +57,8 @@ permalink: /examples/comp_tut/
 
 2. On the right hand corner, hit the "download files" option  
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_1.png)  
-<img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
-<img src="/images/image1.jpg?url=/images/image1_big.jpg" class="dg-picture-zoom" id="picture1">
+<img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom">
+
 
 3. Now, select desired file type. For this tutorial, the PBD File (TEXT) was selected  
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_2.png)  
