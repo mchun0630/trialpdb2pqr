@@ -53,33 +53,33 @@ permalink: /examples/comp_tut/
 <a id="prot3d"></a>
 <h3> How to get a 3-D protein structure </h3>
 
-1. Go to desired Protein Page 
+Go to desired Protein Page 
+
 <form action="http://www.rcsb.org/pdb/explore/explore.do?structureId=4B30">
-    <input type="submit" value="Go to Protein Page">
+<input type="submit" value="Go to Protein Page">
 </form>
+
 2. On the right hand corner, hit the "download files" option  
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_1.png)  
-<img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
-<img src="/images/image1.jpg?url=/images/image1_big.jpg" class="dg-picture-zoom" id="picture1">
+<img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture1">
 
 3. Now, select desired file type. For this tutorial, the PBD File (TEXT) was selected  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_2.png)
-<img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_2.png) 
 Once you click the file, download should start immediately. Save the file in desired location.
 
 4. Next, open up VMD  
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_3.png)
-<img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+<img src="/Tutorial_pics_in_order/Tutorial_pic_3.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture3">
 
 5. Click ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_4.png)
-6. <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">, then click "new molecule" A Molecule File Browser will pop up as such  
+<img src="/Tutorial_pics_in_order/Tutorial_pic_4.png?url=/Tutorial_pics_in_order/Tutorial_pic_4_big.png" class="dg-picture-zoom" id="picture2">, then click "new molecule" A Molecule File Browser will pop up as such  
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_5.png) 
-<img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2"> 
+<img src="/Tutorial_pics_in_order/Tutorial_pic_5.png?url=/Tutorial_pics_in_order/Tutorial_pic_5_big.png" class="dg-picture-zoom" id="picture2"> 
 
 6. Click "Browse...", and then click and open saved Protein file. 
 Go below to "Determine File Type", and click file type, which in this case, is PDB
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_6.png)
-<img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+<img src="/Tutorial_pics_in_order/Tutorial_pic_6.png?url=/Tutorial_pics_in_order/Tutorial_pic_6_big.png" class="dg-picture-zoom" id="picture2">
 Click the "Load" button, and your saved protein will load in the VMD window as a 3-D protein structure
 
 <a data-scroll href="#topcall">Click here to return to the top of the page</a>  
@@ -90,22 +90,19 @@ Click the "Load" button, and your saved protein will load in the VMD window as a
 
 1. First, your 3-D protein structure should be loaded
 on the VMD Main window, click 
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_7.png)
-<img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">, and then click 
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_7.png), and then click 
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_8.png)
-<img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+
 
 2. Next, the Graphical Representations Window will open  
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_9.png)
-<img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+<img src="/Tutorial_pics_in_order/Tutorial_pic_9.png?url=/Tutorial_pics_in_order/Tutorial_pic_9_big.png" class="dg-picture-zoom" id="picture2">
 
 3. Under 
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_10.png)
-<img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">, delete the text "all" and enter "resname (insert name of desired compound here)"
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_10.png), delete the text "all" and enter "resname (insert name of desired compound here)"
 
 4. Hit 
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_11.png)
-<img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
 and the chosen ligand will appear
 
 <a data-scroll href="#topcall">Click here to return to the top of the page</a>  
@@ -115,57 +112,54 @@ and the chosen ligand will appear
 
 1. First, your 3-D protein structure should be loaded
 on the VMD Main window, click 
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_12.png)
-<img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">, and then click 
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_12.png), and then click 
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_13.png)
-<img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+
 
 2. Next, the Graphical Representations Window will open  
 ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_14.png)
 <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
 
-3. Under ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_15.png)  
-<img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">, delete the text "all" and enter "resid (insert residue number)" to find the desired residue number
+3. Under ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_15.png), delete the text "all" and enter "resid (insert residue number)" to find the desired residue number
 
-4. Hit ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_16.png)  
-<img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">and the chosen residue will appear
+4. Hit ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_16.png) and the chosen residue will appear
 
 <a data-scroll href="#topcall">Click here to return to the top of the page</a>  
 <hr/>
 <a id="mutate"></a>
 <h6>How to Mutate a Protein</h6>
 
-1.  First, one must take their pdb file (taken from pdb.org) and convert it into a psf file. This is done by hitting ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_17.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2"> in the VMD main window, then ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_18.png) 
-<img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">, and finally ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_19.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">. You will this on your screen:  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_20.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+1.  First, one must take their pdb file (taken from pdb.org) and convert it into a psf file. This is done by hitting ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_17.png) in the VMD main window, then ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_18.png), and finally ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_19.png). You will this on your screen:  
+
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_20.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_20.png?url=/Tutorial_pics_in_order/Tutorial_pic_20_big.png" class="dg-picture-zoom" id="picture2">
 \*For this example, we'll use the pdb protein 1JLB.
 
-2. Molecule simply names the molecule you want to make into a psf file. ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_21.png) <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2"> is the name of your soon-to-be psf file; change it if you wish. Then hit ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_22.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+2. Molecule simply names the molecule you want to make into a psf file. ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_21.png) is the name of your soon-to-be psf file; change it if you wish. Then hit ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_22.png)
 
-3. For the next section, keep automatic settings and hit ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_23.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+3. For the next section, keep automatic settings and hit ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_23.png) 
 
-4. For the next section as well, keep automatic settings and hit ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_24.png)   <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+4. For the next section as well, keep automatic settings and hit ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_24.png) 
 
 5. When the following window pops up, click "ok"
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_25.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_25.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_25.png?url=/Tutorial_pics_in_order/Tutorial_pic_25_big.png" class="dg-picture-zoom" id="picture2">
 
 6. If, perhaps an error window pops up:  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_26.png)      <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
-simply click ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_27.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2"> and the error messages will clear. However this may jeopardize the quality of the mutated protein. 
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_26.png)      <img src="/Tutorial_pics_in_order/Tutorial_pic_26.png?url=/Tutorial_pics_in_order/Tutorial_pic_26_big.png" class="dg-picture-zoom" id="picture2">
+simply click ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_27.png) and the error messages will clear. However this may jeopardize the quality of the mutated protein. 
 
-7. Click ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_28.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">, and then you will have the psf file saved in your files. 
+7. Click ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_28.png), and then you will have the psf file saved in your files. 
 
-8. Now we can go on to really mutating our residue. Hit ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_29.png)   <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">in the VMD main window, then ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_30.png), and finally![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_31.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">. Then, the following window will open:  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_32.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">  
+8. Now we can go on to really mutating our residue. Hit ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_29.png) in the VMD main window, then ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_30.png), and finally![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_31.png). Then, the following window will open:  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_32.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_32.png?url=/Tutorial_pics_in_order/Tutorial_pic_32_big.png" class="dg-picture-zoom" id="picture2">  
 
 9. Upload the psf and pdb files of your protein. For the field marked MUTATED, retype the name you wish your mutated file to be called.  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_33.png)   <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2"> refers to the original residue your target residue was  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_34.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2"> is the residue number  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_35.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2"> is the amino acid of your desired mutation.  
-An example of the procedure, is if you wanted to change a wild type HIV-1 Reverse Transcriptase Tyrosin to Cysteine, then ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_36.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2"> would be TYR, ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_37.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2"> would be 181, and ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_38.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2"> would be CYS  
-You do not have to check the ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_39.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2"> in order to mutate your residue.  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_33.png) refers to the original residue your target residue was  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_34.png) is the residue number  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_35.png) is the amino acid of your desired mutation.  
+An example of the procedure, is if you wanted to change a wild type HIV-1 Reverse Transcriptase Tyrosin to Cysteine, then ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_36.png) would be TYR, ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_37.png) would be 181, and ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_38.png) would be CYS  
+You do not have to check the ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_39.png)  in order to mutate your residue.  
 
-10. Finally, click ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_40.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">  
+10. Finally, click ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_40.png)  
 The mutated protein will now appear in your VMD window 
 
 <a data-scroll href="#topcall">Click here to return to the top of the page</a>
@@ -176,7 +170,7 @@ The mutated protein will now appear in your VMD window
 <a id="IntroPDB"></a>
 <h6>Introduction to PDB2PQR</h6>
 
-[Use the online pdb2pqr website to run pdb2pqr](http://nbcr-222.ucsd.edu/pdb2pqr_1.9.0/)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2"> (changes file from pdb to the pqr format, this adds missing hydrogens, adds some missing heavy atoms, and optimizes the protein structure among other things)
+[Use the online pdb2pqr website to run pdb2pqr](http://nbcr-222.ucsd.edu/pdb2pqr_1.9.0/) (changes file from pdb to the pqr format, this adds missing hydrogens, adds some missing heavy atoms, and optimizes the protein structure among other things)
 
 First, go to the PDB2PQR website above. You should already have a selected protein form pdb.org in mind.
 _(My example will be using the protein 2HNY)_
@@ -189,7 +183,7 @@ Since I want my file to be compatible with VMD, for the both settings named "Pic
 * With PDB2PQR, unfortunately the program deletes any stray ligands that are in the molecule, which means to mutate accordingly a MOL2 file must be taken (which most are available at the ZINC database website). 
 
 An interesting thing to keep in mind whilst using pdb2pqr:
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_41.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_41.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_41.png?url=/Tutorial_pics_in_order/Tutorial_pic_41_big.png" class="dg-picture-zoom" id="picture2">
 
 <a data-scroll href="#topcall">Click here to return to the top of the page</a>  
 <a id="Download"></a>
