@@ -260,27 +260,27 @@ You can now run APBS!
 
 <h6>DISCALIMER: THIS TUTORIAL IS USING A WINDOWS COMPUTER AND WINDOWS COMMAND PROMPT</h6>
 
-1. First, before running APBS through the command line, you must make sure your desired protein files are in the same folder as the apbs command prompt. If APBS downloaded correctly, it should be in your C drive (![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_53.png)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2"> ) when you open "computer" from your start menu. 
+1. First, before running APBS through the command line, you must make sure your desired protein files are in the same folder as the apbs command prompt. If APBS downloaded correctly, it should be in your C drive (![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_53.png)) when you open "computer" from your start menu. 
 
 2. Click on the APBS folder, and in the APBS folder make a new folder for all your proteins; please label the folder accordingly, and remember the name of the folder. 
 
 3. It is important to remember, that when putting protein files in the folder, you need to put both the PQR as well as the corresponding IN file. PQR and IN files can both be obtained from the PDB2PQR webserver.   
 (A PQR file is the information about the protein, whereas the IN file is a command file that tells APBS how to calculate the electrostatic fields. The In file is unique to one PQR file (as it specifies its commands to only one PQR file) and also holds other information such as dimensions and calculation specifications. Both files are needed to run APBS)  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_54.png)   <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_54.png)   <img src="/Tutorial_pics_in_order/Tutorial_pic_54.png?url=/Tutorial_pics_in_order/Tutorial_pic_54_big.png" class="dg-picture-zoom" id="picture2">
 _An example of the pdb2pqr webserver and the pqr and in files_
 
 4. Now that the folders are set up, you can open the command line. To open up the start menu, type in cmd.exe and open the command prompt; this is the command line execution for APBS.
 The command prompt should look something similar to this:  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_55.png)   <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_55.png)   <img src="/Tutorial_pics_in_order/Tutorial_pic_55.png?url=/Tutorial_pics_in_order/Tutorial_pic_55_big.png" class="dg-picture-zoom" id="picture2">  
 
 5. Of course, our PQR and IN files are not in this location, so we'll have to go back to our C:\ drive, then to our APBS Folder, then to our designated protein folder. To do so, in the command prompt hit "space", cd, "space", .., then enter. Your command prompt should look like the following:  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_56.png)    <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_56.png)    <img src="/Tutorial_pics_in_order/Tutorial_pic_56.png?url=/Tutorial_pics_in_order/Tutorial_pic_56_big.png" class="dg-picture-zoom" id="picture2">
 As you can see, this makes our prompt go up one directory. To go to the C:\ drive, type in the same command, and hit "enter"  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_57.png)    <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_57.png)    <img src="/Tutorial_pics_in_order/Tutorial_pic_57.png?url=/Tutorial_pics_in_order/Tutorial_pic_57_big.png" class="dg-picture-zoom" id="picture2">
 
 6. Now, type "space", "cd", "space", "apbs" and hit "enter". You are now in your APBS folder. To get to your folder of proteins, type in "cd", "space", then type in the first letter of your folder name and hit "tab" until your folder name pops up. Then hit "enter"   
 (_What the tab key does is find all files that start with the letters you have typed, for example, if you typed "i", then tab, the command prompt would go down, alphabetically, all your files in the folder that start with "i"_)  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_58.png)    <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_58.png)    <img src="/Tutorial_pics_in_order/Tutorial_pic_58.png?url=/Tutorial_pics_in_order/Tutorial_pic_58_big.png" class="dg-picture-zoom" id="picture2">
 
 7. Now that you are in your folder with your PQR and IN files, using the tab shortkey (as mentioned above), type the first letter of your 
 desired IN file. This is very important; apbs does not need the PQR file, it needs the IN file to operate.  
@@ -295,75 +295,73 @@ You are done running APBS!
 <a id="PyMol"></a>
 <h6>PyMol</h6>
 
-[The needed protein for this PyMol tutorial](http://www.rcsb.org/pdb/explore/explore.do?structureId=1fas)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2"> (1FAS a.k.a Fasciculin-1).  Fasciculin-1 is an acetylcholinesterase (this compound ends the communication between muscle cells) inhibitor found in the venom of the green mamba. This allows the action potential to go uncurbed which causes small involuntary muscle contractions (it paralyzes the injected subject).
+[The needed protein for this PyMol tutorial](http://www.rcsb.org/pdb/explore/explore.do?structureId=1fas) (1FAS a.k.a Fasciculin-1).  Fasciculin-1 is an acetylcholinesterase (this compound ends the communication between muscle cells) inhibitor found in the venom of the green mamba. This allows the action potential to go uncurbed which causes small involuntary muscle contractions (it paralyzes the injected subject).
 
 To set up the molecule follow the **"Introduction to PDB2PQR"** instructions above.
 
 1. Open the PQR file you are going to be using so you can edit it, and go down to where all the **"HETATM"** are (these should all be HOH which is water). Select them all and delete them. Save the file.  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_59.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_59.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_59.png?url=/Tutorial_pics_in_order/Tutorial_pic_59_big.png" class="dg-picture-zoom" id="picture2">
 It should look something like this:  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_60.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_60.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_60.png?url=/Tutorial_pics_in_order/Tutorial_pic_60_big.png" class="dg-picture-zoom" id="picture2">
 
 2.  Load the newly saved PQR file you had into PyMOL (File → Open...) and choose your favorite graphical representation of the molecular structure (often the easiest to view is "showing (**S**)" the cartoon representation and "hiding (**H**)" lines). 
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_61.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_61.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_64.png?url=/Tutorial_pics_in_order/Tutorial_pic_64_big.png" class="dg-picture-zoom" id="picture2">
  
 3. Next go to the Plugin tab and open APBS Tools... (where ... is a number referring to the  version). In the window that comes up, click "Use another PQR" and then "Choose Externally Generated PQR:".   
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_62.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_62.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_62.png?url=/Tutorial_pics_in_order/Tutorial_pic_62_big.png" class="dg-picture-zoom" id="picture2">
 
 4. Now find the file that you created using the webserver and click ok.    
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_63.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_63.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_63.png?url=/Tutorial_pics_in_order/Tutorial_pic_63_big.png" class="dg-picture-zoom" id="picture2">
 
 5. Go into "My Computer" and in the upper right corner and type in apbs.exe and press enter (to search for it).   
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_64.jpg)   <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_64.jpg)   <img src="/Tutorial_pics_in_order/Tutorial_pic_64.png?url=/Tutorial_pics_in_order/Tutorial_pic_64_big.png" class="dg-picture-zoom" id="picture2">
 
 6. Once you find the file, left click on it once to select it, then right click and go to open file location.  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_65.jpg)   <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_65.jpg)   <img src="/Tutorial_pics_in_order/Tutorial_pic_65.png?url=/Tutorial_pics_in_order/Tutorial_pic_65_big.png" class="dg-picture-zoom" id="picture2">
 
 7. Click on the white space in the top of window.  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_66.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_66.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_66.png?url=/Tutorial_pics_in_order/Tutorial_pic_66_big.png" class="dg-picture-zoom" id="picture2">
 
 8. When the path is highlighted blue, Right click on it,  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_67.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_67.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_67.png?url=/Tutorial_pics_in_order/Tutorial_pic_67_big.png" class="dg-picture-zoom" id="picture2">
 
 9. And hit Copy (to copy the file path).    
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_68.jpg)   <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_68.jpg)   <img src="/Tutorial_pics_in_order/Tutorial_pic_68.png?url=/Tutorial_pics_in_order/Tutorial_pic_68_big.png" class="dg-picture-zoom" id="picture2">
 
 10. Paste this link into the "APBS binary location" on the "Program Locations" tab of "PyMol APBS Tools".  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_69.jpg)   <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_69.jpg)   <img src="/Tutorial_pics_in_order/Tutorial_pic_69.png?url=/Tutorial_pics_in_order/Tutorial_pic_69_big.png" class="dg-picture-zoom" id="picture2">
 
 11. Now add "**\apbs.exe**" after "\bin" in order to finish off the path to the APBS executable. If the path to an apbs.exe executable is correct, the line should no longer be highlighted red.  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_70.jpg)   <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_70.jpg)   <img src="/Tutorial_pics_in_order/Tutorial_pic_70.png?url=/Tutorial_pics_in_order/Tutorial_pic_70_big.png" class="dg-picture-zoom" id="picture2">
 
 12. Now repeat steps 4 through 10 but with **psize.py** and **pdb2pqr.exe** (if they are not already in place). The end product should look like this:  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_71.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_71.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_71.png?url=/Tutorial_pics_in_order/Tutorial_pic_71_big.png" class="dg-picture-zoom" id="picture2">
 
 13. Now hit "Set grid", and "Run APBS".  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_72.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_72.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_72.png?url=/Tutorial_pics_in_order/Tutorial_pic_72_big.png" class="dg-picture-zoom" id="picture2">
 
 14. Now you should go to the visualization tab, and hit "Show" under "Molecular surface", "Positive Isosurface", and "Negative Isosurface".  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_73.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2"> 
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_73.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_73.png?url=/Tutorial_pics_in_order/Tutorial_pic_73_big.png" class="dg-picture-zoom" id="picture2"> 
 
 15. A visualization in the "PyMol Viewer" window should appear and look something like this:
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_74.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_74.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_74.png?url=/Tutorial_pics_in_order/Tutorial_pic_74_big.png" class="dg-picture-zoom" id="picture2">
 
 16. \*\*\* By changing the values for" Low, High, and Contour (kT/e), you can increase the range of concentrations you can see (larger values means more white space and less dark red/blue, as well as less isosurface).    
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_75.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_75.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_75.png?url=/Tutorial_pics_in_order/Tutorial_pic_75_big.png" class="dg-picture-zoom" id="picture2">
 
-17. To get the changes to show you need to hit the "Update button" after changing the values.  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_75.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
-Using values of 5, this is the picture that appears (common isovalues are 1,5,10):  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_76.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+17. To get the changes to show you need to hit the "Update button" after changing the values.  Using values of 5, this is the picture that appears (common isovalues are 1,5,10):  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_76.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_76.png?url=/Tutorial_pics_in_order/Tutorial_pic_76_big.png" class="dg-picture-zoom" id="picture2">
 
 18. **If a picture like this**   
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_77.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_77.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_77.png?url=/Tutorial_pics_in_order/Tutorial_pic_77_big.png" class="dg-picture-zoom" id="picture2">
 **or this appears,**   
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_78.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_78.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_78.png?url=/Tutorial_pics_in_order/Tutorial_pic_78_big.png" class="dg-picture-zoom" id="picture2">
 **you didn't properly delete/save the water molecules which causes small highly charged areas**
 
 19. To get field lines to appear, under the Visualization(1) tab hit "Show"  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_79.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_79.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_79.png?url=/Tutorial_pics_in_order/Tutorial_pic_79_big.png" class="dg-picture-zoom" id="picture2">
 The picture should look somewhat similar to this:  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_80.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_80.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_80.png?url=/Tutorial_pics_in_order/Tutorial_pic_80_big.png" class="dg-picture-zoom" id="picture2">
 
 <a data-scroll href="#topcall">Click here to return to the top of the page</a>  
 <a id="VMD"></a>
@@ -374,92 +372,92 @@ The picture should look somewhat similar to this:
 In order to set up the molecule, follow the same instructions as **"Introduction to PDB2PQR"** but replace the shown molecule with 1MYK.
 
 1. Open the downloaded PQR file and go to the bottom where the "HETATMs" are listed. There should be the 3 parts of a water molecule (labeled HOH). Delete these.
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_81.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_81.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_81.png?url=/Tutorial_pics_in_order/Tutorial_pic_81_big.png" class="dg-picture-zoom" id="picture2">
 You should end up with the following:
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_82.jpg)   <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_82.jpg)   <img src="/Tutorial_pics_in_order/Tutorial_pic_82.png?url=/Tutorial_pics_in_order/Tutorial_pic_82_big.png" class="dg-picture-zoom" id="picture2">
 
 2. Open up VMD, and under the **VMD Main** tab, click "File" -> "New Molecule".  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_83.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_83.jpg)  <img src="/Tutorial_pics_in_order/Tutorial_pic_83.png?url=/Tutorial_pics_in_order/Tutorial_pic_83_big.png" class="dg-picture-zoom" id="picture2">
 
 3. Under "Molecule File Browser",  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_84.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2"> 
-Hit ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_85.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_84.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_84.png?url=/Tutorial_pics_in_order/Tutorial_pic_84_big.png" class="dg-picture-zoom" id="picture2"> 
+Hit ![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_85.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_85.png?url=/Tutorial_pics_in_order/Tutorial_pic_85_big.png" class="dg-picture-zoom" id="picture2">
 Open the "**1MYK.pqr**" file and hit Load (make sure the file type under "Determine file type:" is correct after hitting load, it should be PQR)  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_86.jpg)   <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2"> 
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_86.jpg)   <img src="/Tutorial_pics_in_order/Tutorial_pic_86.png?url=/Tutorial_pics_in_order/Tutorial_pic_86_big.png" class="dg-picture-zoom" id="picture2"> 
 
 4. Under "Extensions", select "Analysis" and "APBS Electrostatics"  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_87.jpg)   <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">  
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_87.jpg)   <img src="/Tutorial_pics_in_order/Tutorial_pic_87.png?url=/Tutorial_pics_in_order/Tutorial_pic_87_big.png" class="dg-picture-zoom" id="picture2">  
 
 5. Under "APBS Tools" click "Edit" and then "Settings"  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_88.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_88.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_88.png?url=/Tutorial_pics_in_order/Tutorial_pic_88_big.png" class="dg-picture-zoom" id="picture2">
 
 6. Under the APBS Tools "Settings" tab, hit Browse under "APBS Location". Input the location to an apbs.exe (apbs executable).  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_89.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_89.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_89.png?url=/Tutorial_pics_in_order/Tutorial_pic_89_big.png" class="dg-picture-zoom" id="picture2">
  
 7. Click on "Computer" on the left sidebar and in the top right corner type "apbs.exe" and hit enter to search for apbs.exe.  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_90.jpg)   <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_90.jpg)   <img src="/Tutorial_pics_in_order/Tutorial_pic_90.png?url=/Tutorial_pics_in_order/Tutorial_pic_90_big.png" class="dg-picture-zoom" id="picture2">
 
 8. Click on one of the "apbs.exe", right click and go down to "Open file location"  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_91.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_91.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_91.png?url=/Tutorial_pics_in_order/Tutorial_pic_91_big.png" class="dg-picture-zoom" id="picture2">
 
 9. Click on the "apbs.exe" and click "Open".  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_92.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_92.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_92.png?url=/Tutorial_pics_in_order/Tutorial_pic_92_big.png" class="dg-picture-zoom" id="picture2">
 
 10. For "Working Directory" browse over to the file that contains the PQR file (1MYK.pqr) you downloaded and saved previously. Hit "Ok" once you found the file.  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_93.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_93.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_93.png?url=/Tutorial_pics_in_order/Tutorial_pic_93_big.png" class="dg-picture-zoom" id="picture2">
 
 11. Click OK on the "Settings" page  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_94.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_94.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_94.png?url=/Tutorial_pics_in_order/Tutorial_pic_94_big.png" class="dg-picture-zoom" id="picture2">
 
 12. Click on the "0" and hit "Edit".  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_95.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_95.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_95.png?url=/Tutorial_pics_in_order/Tutorial_pic_95_big.png" class="dg-picture-zoom" id="picture2">
 
 13. If you need to change the APBS settings you would do it on this page; however, the defaults are usually fine except for the most highly charged molecules (Elec stands for electrostatics). Hit Ok when you are done.  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_96.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_96.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_96.png?url=/Tutorial_pics_in_order/Tutorial_pic_96_big.png" class="dg-picture-zoom" id="picture2">
 
 14. Now hit "Run APBS". In the "APBSRun: Load APBS Maps" window click "Load files into top molecule" and click "Ok"  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_97.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_97.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_97.png?url=/Tutorial_pics_in_order/Tutorial_pic_97_big.png" class="dg-picture-zoom" id="picture2">
 
 15. Under the "VMD Main" tab, go to "Graphics" and hit "Representations".  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_98.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_98.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_98.png?url=/Tutorial_pics_in_order/Tutorial_pic_98_big.png" class="dg-picture-zoom" id="picture2">
 
 16. Select the current "rep" and under "Drawing Method" select "NewCartoon". Under "Coloring Method" select "ResType (colors based on type of residue: non-polar, basic, acidic, polar are white, blue, red, and green respectively)"  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_99.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_99.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_99.png?url=/Tutorial_pics_in_order/Tutorial_pic_99_big.png" class="dg-picture-zoom" id="picture2">
 The current picture should look something like this:  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_100.jpg)   <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_100.jpg)   <img src="/Tutorial_pics_in_order/Tutorial_pic_100.png?url=/Tutorial_pics_in_order/Tutorial_pic_100_big.png" class="dg-picture-zoom" id="picture2">
 
 17. Now hit "Create rep" and select the new rep.  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_101.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_101.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_101.png?url=/Tutorial_pics_in_order/Tutorial_pic_101_big.png" class="dg-picture-zoom" id="picture2">
 Change the "Coloring Method" of this one to "ColorID" (the value of this should be 0).  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_102.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_102.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_102.png?url=/Tutorial_pics_in_order/Tutorial_pic_102_big.png" class="dg-picture-zoom" id="picture2">
 Now change the "Drawing Method" to "Isosurface". Change the material to "Transparent", the "Draw" to "Solid Surface", and the "Isovalue" to 1.  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_103.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_103.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_103.png?url=/Tutorial_pics_in_order/Tutorial_pic_103_big.png" class="dg-picture-zoom" id="picture2">
 
 18. Repeat step 17 but with a ColorID of 1 and an Isovalue of -1 (red for a negative charge is standard because oxygen is typically modeled as red while blue is standard for a positive charge because nitrogen is modeled as blue). The display window should now look something like this:  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_104.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_104.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_104.png?url=/Tutorial_pics_in_order/Tutorial_pic_104_big.png" class="dg-picture-zoom" id="picture2">
 
 19. If you want to visualize surface potentials (instead of isosurfaces), under the "Graphical Representations" window change the coloring method for both reps that are "Isosurface" under the "Style" title to "Surf".  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_105.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_105.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_105.png?url=/Tutorial_pics_in_order/Tutorial_pic_105_big.png" class="dg-picture-zoom" id="picture2">
 
 20. Also change the "Coloring Method" to "Volume" and the Material to "Opaque" for both reps.  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_106.jpg)   <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_106.jpg)   <img src="/Tutorial_pics_in_order/Tutorial_pic_106.png?url=/Tutorial_pics_in_order/Tutorial_pic_106_big.png" class="dg-picture-zoom" id="picture2">
 
 21. Under the "Trajectory" tab  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_107.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_107.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_107.png?url=/Tutorial_pics_in_order/Tutorial_pic_107_big.png" class="dg-picture-zoom" id="picture2">
 Change the "Color Scale Data Range:" values to -10 and 10 and hit set (do this for both Surf reps).  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_108.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_108.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_108.png?url=/Tutorial_pics_in_order/Tutorial_pic_108_big.png" class="dg-picture-zoom" id="picture2">
 
 22. Now the display should have a solid red/blue/white surface that looks like this:  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_109.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2"> 
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_109.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_109.png?url=/Tutorial_pics_in_order/Tutorial_pic_109_big.png" class="dg-picture-zoom" id="picture2"> 
 
 23. By keeping the "Coloring Method" as "Volume", but changing the "Drawing Method" to "FieldLines" you can visualize the local intensity of electric fields.  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_110.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_110.jpg)     <img src="/Tutorial_pics_in_order/Tutorial_pic_110.png?url=/Tutorial_pics_in_order/Tutorial_pic_110_big.png" class="dg-picture-zoom" id="picture2">
 
 24. Change the "Size" to 2, "GradientMag" to approximately 8.30, "Min Length" to 1.00, and "Max Length" is approximately 200.  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_111.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_111.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_111.png?url=/Tutorial_pics_in_order/Tutorial_pic_111_big.png" class="dg-picture-zoom" id="picture2">
 
 25. The final representation should now look like the following:  
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_112.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_112.jpg)    <img src="/Tutorial_pics_in_order/Tutorial_pic_112.png?url=/Tutorial_pics_in_order/Tutorial_pic_112_big.png" class="dg-picture-zoom" id="picture2">
  
 <a data-scroll href="#topcall">Click here to return to the top of the page</a>  
 <a id="Dimes"></a>
@@ -467,13 +465,13 @@ Change the "Color Scale Data Range:" values to -10 and 10 and hit set (do this f
 
 When running APBS, DIME values may become a problem that keeps apbs electrostatic calculations from running. In order to check DIME values, you need to check the .in file for DIME values. One can change the DIME values of an APBS file by going through a text editor and manually changing the dime values. 
 
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_113.png)    <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_113.png)    <img src="/Tutorial_pics_in_order/Tutorial_pic_113.png?url=/Tutorial_pics_in_order/Tutorial_pic_113_big.png" class="dg-picture-zoom" id="picture2">
 
 The picture above shows a sample .in file, which can be obtained after running PDB2PQR on the desired protein. 
 
 Dime values are the dimensions for the XYZ grid for the protein. Each  grid point requires about 160B of memory, and to get the total number if grid points the x,y,z grid elements are multiplied. The multi-grid solver iterates over all of these elements to find the electrostatic potential at each of those locations. If the dimensions are too large, the computer will have a memory problem and will be unable to calculate the electrostatic fields, such as:
 
-![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_114.png)    <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture2">
+![](https://raw.githubusercontent.com/PEMIfolder/github.io-PEMIfolder/master/Tutorial_pics_in_order/Tutorial_pic_114.png)    <img src="/Tutorial_pics_in_order/Tutorial_pic_114.png?url=/Tutorial_pics_in_order/Tutorial_pic_114_big.png" class="dg-picture-zoom" id="picture2">
 
 In order to work around this issue, you must manually change the DIME values to a smaller size. For the HIV-1 RT, I changed the DIME values to 129, which allowed APBS to run as normal and calculate a .dx file. 
 
