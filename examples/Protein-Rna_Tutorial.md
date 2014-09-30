@@ -1,4 +1,8 @@
-#Ionic Strength Dependence of Peptide-RNA Interactions
+---
+layout: examples
+title: Ionic Strength Dependence of Peptide-RNA Interactions
+permalink: /examples/Protein-Rna_Tutorial/
+---
 
 ####Software that will be needed:  
 [Click here for Git](http://git-scm.com/)  
@@ -60,7 +64,7 @@ If you are at all confused how to get the repository you can [use this practice 
 4. Save python to your path (see the git.exe example but search for python.exe this time)
 
 5. Save the following python script (in my case I saved as apbs_dx.py):
-####Python Script (windows):
+####Python Script (windows):  
 	from subprocess import call
 
 	my_list = (0.025, 0.05, 0.075, 0.1, 0.125, 0.15, 0.175, 0.225, 0.275, 0.325, 0.4, 0.5, 0.6, 0.7, 0.8)

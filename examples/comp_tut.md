@@ -1,6 +1,6 @@
 ---
 layout: examples
-title: Compiled Tutorial
+title: APBS, PDB2PQR, PyMol, & VMD
 permalink: /examples/comp_tut/
 ---
 \*Click on pictures to enlarge them  
@@ -52,11 +52,6 @@ permalink: /examples/comp_tut/
 
 1. Go to desired Protein Page
 <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=4b3o" target="BLANK">(4B3O a.k.a. HIV Reverse Transcriptase)</a>
-
-1. Go to desired Protein Page 
-<form action="http://www.rcsb.org/pdb/explore/explore.do?structureId=4B30">
-<input type="submit" value="Example PDB Page Here">
-</form>
 
 2. On the right hand corner, hit the "download files" option   
 <img src="/Tutorial_pics_in_order/Tutorial_pic_1.png?url=/Tutorial_pics_in_order/Tutorial_pic_1_big.png" class="dg-picture-zoom" id="picture1">
