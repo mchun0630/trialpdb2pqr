@@ -2,6 +2,6 @@ pygments: false
 relative_permalinks: false
 permalink: /news/:year/:month/:day/:title/
 excerpt_separator: noifniof3nioaniof3nioafafinoafnoif
-repository: https://github.com/electrostatics/apbs-pdb2pqr
-baseurl:  http://www.poissonboltzmann.org
+repository: https://github.com/mchun0630/pseudo_pdb2pqr
+baseurl:  http://mchun0630.github.io/pseudo_pdb2pqr
 markdown: kramdown

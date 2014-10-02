@@ -6,7 +6,7 @@
 # - ...and download + install the version for your Mac
 # - From the directory in which you find this file, run: bundle install
 # - And finally execute: jekyll serve --watch --baseurl=
-# - The site is available at http://localhost:4000
+# - The site is available at https://localhost:4000
 
 source 'https://rubygems.org'
 
